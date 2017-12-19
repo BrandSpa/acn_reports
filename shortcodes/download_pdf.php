@@ -99,13 +99,13 @@ add_action( 'vc_before_init', 'bs_download_pdf_vc' );
       ],
       [
         "type" => "textfield",
-        "heading" => "Terms Text",
+        "heading" => "Subscribe Text",
         "param_name" => "terms_text",
         "value" => "Yes, I want to receive emails about ACN's work",
       ],
       [
         "type" => "textfield",
-        "heading" => "Terms Validation",
+        "heading" => "Subscribe Validation",
         "param_name" => "terms_text_valid",
         "value" => "This field is required",
       ],
