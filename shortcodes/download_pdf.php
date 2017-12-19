@@ -9,7 +9,7 @@ function bs_download_pdf_sc($atts, $content = null) {
 		'validation_email' => 'Email required',
     'redirect_url' => '',
     'event' => 'PF2017',
-    'terms_text' => "Yes, I want to receive emails about ACN's work",
+    'terms_text' => "Yes, I want to receive emails about ACNs work",
     'tags' => ''
   ];
 
