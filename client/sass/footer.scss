@@ -1,0 +1,301 @@
+.bs-about {
+
+	&__left {
+		text-align: right;
+		padding: 40px 0 0 0;
+
+		@media #{$s} {
+			text-align: center;
+		}
+	}
+
+	&__right {
+			padding: 40px;
+			@media #{$s} {
+				text-align: center;
+			}
+
+			h3 {
+				color: RGBA(241, 54, 78, 1.00);
+				display: inline-block;
+				padding-bottom: 20px;
+
+				&:after {
+					display: block;
+					content: ' ';
+					width: 60%;
+					border-bottom: 2px solid RGBA(241, 54, 78, 1.00);
+				}
+			}
+
+			p {
+				display: block;
+				width: 80%;
+				line-height: 1.4;
+				@media #{$s} {
+					width: 100%;
+				}
+			}
+		}
+
+
+}
+
+.bs-footer {
+
+	&__left {
+		height: 400px;
+		background: RGBA(60, 81, 95, 1.00);
+		color: #fff;
+		padding: 50px 60px 0 60px;
+		@media #{$s}{
+			display: none;
+		}
+
+		img {
+			display: block;
+			margin: 30px 0;
+				@media #{$s} {
+					display: initial;
+				}
+		}
+
+		p {
+			color: #fff;
+		}
+
+		@media #{$s} {
+			text-align: center;
+		}
+	}
+
+	&__right {
+		height: 400px;
+		padding: 0;
+
+		@media #{$s} {
+			height: auto;
+		}
+
+		&--top {
+			width: 100%;
+			height: 100px;
+			background: RGBA(247, 247, 247, 1.00);
+			padding: 40px;
+
+			@media #{$s} {
+				height: auto;
+			}
+
+		}
+
+		&--bottom {
+			width: 100%;
+			height: 300px;
+			background-color: RGBA(43, 58, 68, 1.00);
+			background-image: url('https://acninternational.org/wp-content/uploads/2017/02/wire_white_bg2.png');
+			color: #fff;
+			padding: 40px;
+
+			@media #{$s} {
+				height: auto;
+				text-align: center;
+			}
+
+			div {
+				margin-bottom: 15px;
+			}
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+
+	&__bottom {
+		&--top {
+			width: 100%;
+			background: RGBA(46, 67, 81, 1.00);
+			padding: 7px 0;
+			text-align: center;
+			float: left;
+
+			h6 {
+				color: #808080;
+			}
+		}
+
+		&--bottom {
+			width: 100%;
+			float: left;
+			padding: 20px;
+			text-align: right;
+		}
+	}
+
+	&__menu {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+			display: inline-block;
+			margin: 0 20px;
+			@media #{$s} {
+				display: block;
+				margin: 10px 0;
+				text-align: center;
+			}
+			a {
+				color: #3c515f;
+			}
+		}
+	}
+
+	.privacy-terms {
+		text-align: right;
+			@media #{$s} {
+				text-align: center;
+			}
+	}
+}
+
+.learn-more {
+	background: RGBA(241, 54, 78, 1.00);
+	padding: 30px;
+	float: left;
+	width: 100%;
+	text-align: center;
+
+	&-link {
+		font-size: 1.86667em;
+		text-align: center;
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		text-decoration: none;
+		color: #fff;
+		text-transform: uppercase;
+		@media #{$s} {
+			font-size: 1em;
+		}
+	}
+
+}
+
+.footer-donate {
+	&__top {
+		background: #F7F7F7;
+		padding: 25px 0;
+		font-size: 12px;
+		color: #9B9B9B;
+		text-align: center;
+	}
+
+	&__bottom {
+		display: flex;
+		flex-wrap: wrap;
+
+		&--left {
+			padding: 60px 60px;
+			background: RGBA(60, 81, 95, 1.00);
+			color: #fff;
+			text-align: center;
+			p {
+				color: #fff;
+			}
+
+		}
+
+		&--right {
+			padding: 60px 60px;
+			background: RGBA(43, 58, 68, 1.00);
+			color: #fff;
+
+			@media #{$s} {
+				padding: 0 60px;
+			}
+
+			img {
+				float: left;
+
+				@media #{$s} {
+					margin: 40px auto;
+					display: block;
+					float: none
+				}
+
+			}
+
+			&__content {
+				float: left;
+				padding-left: 40px;
+				width: 80%;
+
+				@media #{$s} {
+					width: 100%;
+					padding: 0;
+				}
+			}
+
+			ul {
+				float: left;
+				padding: 0;
+
+				li {
+					float: left;
+					margin-right: 20px;
+					list-style: none;
+
+					a {
+						color: #F2F2F2;
+						font-size: 11px;
+					}
+				}
+			}
+
+			h3 {
+				padding-bottom: 20px;
+				color: #fff;
+				float: left;
+
+				&:after {
+					content: '';
+					width: 70%;
+					height: 2px;
+					background: #fff;
+					display: block;
+					margin-top: 20px;
+				}
+
+			}
+
+			p {
+				color: #F2F2F2;
+				float: left;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.bs-contact-info__social {
+	padding: 0;
+
+	li {
+		list-style: none;
+		display: inline-block;
+		a {
+			background: #fff;
+			width: 30px;
+			height: 30px;
+			border-radius: 30px;
+			display: inline-block;
+			margin-right: 10px;
+			color: RGBA(43, 58, 68, 1);
+			font-size: 15px;
+	    text-align: center;
+	    padding-top: 5px;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.video__header-title {
+	background: #fff; 
+	min-height: 100px; 
+	float: left; 
+	width: 100%;
+	padding: 40px 80px 0 80px;
+	@media #{$s} {
+		padding: 20px;
+	}
+}
+
+.single__header-title {
+	background: #fff; 
+	min-height: 100px; 
+	position:absolute;
+	bottom:0;
+	left:0;
+	right: 0;
+	margin:auto;
+	width: 80%;
+	padding: 40px 80px 0 80px;
+	@media #{$s} {
+		padding: 20px;
+		width:100%;
+	}
+}

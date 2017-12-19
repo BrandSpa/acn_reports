@@ -1,0 +1,72 @@
+.campaigns-slider {
+	overflow: hidden;
+	&__slide {
+		float: left;
+
+		&__content {
+			float: left;
+			padding: 60px 30px;
+			text-align: center;
+			h4, p, a {
+				color: #fff;
+			}
+		}
+	}
+
+	&__viewport {
+		position: relative;
+		transition: all 300ms;
+	}
+
+	&__btns {
+		button {
+			position: absolute;
+			top: 30%;
+			height: 45px;
+			display: block;
+			background: transparent;
+			border: none;
+			cursor: pointer;
+			font-size: 42px;
+			color: #fff;
+			padding: 0 20px;
+  	}
+
+		&__prev {
+			position: absolute;
+			left: 10px;
+			i {
+				text-shadow: 5px 5px 5px rgba(0,0,0, .3);
+			}
+			 
+  	}
+
+		&__next {
+			position: absolute;
+			right: 10px; 
+			i {
+				text-shadow: 5px 5px 5px rgba(0,0,0, .3); 
+			}
+			
+  	}
+	}
+	
+}
+
+
+.campaign {
+	&__item {
+		padding: 60px 30px; 
+		float: left;
+		min-height: 480px;
+		
+		@media #{$s} {
+			min-height: auto;
+		}
+		
+		a, p, span {
+			color: #fff;
+		}
+	
+	}
+}

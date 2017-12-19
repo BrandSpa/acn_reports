@@ -1,0 +1,94 @@
+.padding-sides {
+    color: #ffffff;
+    padding: 0 120px;
+}
+
+.nineveh-info {
+    z-index: 3;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 0 80px;
+}
+
+.nineveh-title {
+    margin-bottom: 20px;
+}
+
+.nineveh-info ul {
+    border: 1px solid #fff;
+    padding: 20px 0;
+    margin: 0 15px;
+}
+
+.nineveh-info ul li {
+    padding: 0 10px;
+}
+
+.nineveh-info .row {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.nineveh-info ul {
+    margin-bottom: 20px;
+}
+
+.nineveh-box {
+    border: 1px solid #fff;
+    padding: 20px;
+    min-height: 120px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nineveh-info {
+        width: 80%;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+
+    .nineveh-info .row {
+        margin-bottom: 10px;
+    }
+
+    .nineveh-info ul {
+        margin-bottom: 10px;
+    }
+
+    .nineveh-box {
+        border: 1px solid #fff;
+        padding: 10px;
+        min-height: 100px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .nineveh-title {
+        margin-bottom: 10px;
+    }
+
+    .nineveh-info {
+        width: 90%;
+        padding: 0 40px;
+    }
+
+    .nineveh-info .row {
+        margin-bottom: 10px;
+    }
+
+    .nineveh-info ul {
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+
+     .nineveh-box {
+        border: 1px solid #fff;
+        padding: 10px;
+        min-height: 80px;
+    }
+}

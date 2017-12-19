@@ -1,0 +1,17 @@
+{
+    "require": {
+        "rmccue/requests": "^1.7",
+        "stripe/stripe-php": "^4.1",
+        "infusionsoft/php-sdk": "^1.2",
+        "geoip2/geoip2": "~2.0",
+        "nielse63/phpimagecache": "^1.0",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "convertloop/convertloop-php": "^0.1.0",
+        "phpmailer/phpmailer": "^6.0",
+        "wixel/gump": "1.5.6"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.8",
+        "fzaninotto/faker": "^1.6"
+    }
+}
