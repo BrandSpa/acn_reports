@@ -69,16 +69,14 @@ class DownloadPdf extends React.Component {
 
   handlepdf = async (e) => {
     e.preventDefault();
-    console.log('handlepdf');
     const isValid = await this.isValid();
-    console.log('isValid', isValid);
     this.storeContact(isValid);
   };
 
   storeContact = async (isValid) => {
     const { redirect_url, event, tags } = this.props;
     const { email, country } = this.state;
-    const contact = { email, country };
+    const contact = { email, country, 'Subscribe': this.state.terms ? 'Yes': 'No' };
     
     if (isValid) {
       try {
@@ -110,7 +108,6 @@ class DownloadPdf extends React.Component {
   render() {
     const { countries, btn, texts } = this.props;
     const { errors } = this.state;
-
     const btnStyle = {
       borderColor: btn.background,
       background: btn.background,
@@ -145,7 +142,7 @@ class DownloadPdf extends React.Component {
           </div>
           <div className="input-container col-sm-12">
               <label> <input type="checkbox" defaultChecked={this.state.terms} onChange={e => this.handleTermsChange(e)} /> {texts.terms_text}</label>
-              <div className={errors.email ? 'input-error' : 'hidden'}>
+              <div className={errors.terms ? 'input-error' : 'hidden'}>
                 {texts.terms_text_valid}
               </div>
           </div>
