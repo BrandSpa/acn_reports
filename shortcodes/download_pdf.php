@@ -10,6 +10,7 @@ function bs_download_pdf_sc($atts, $content = null) {
     'redirect_url' => '',
     'event' => 'PF2017',
     'terms_text' => "Yes, I want to receive emails about ACNs work",
+    'terms_text_valid' => "This field is required",
     'tags' => ''
   ];
 
@@ -24,6 +25,7 @@ function bs_download_pdf_sc($atts, $content = null) {
 			'email' => $at['email'],
       'validation_email' => $at['validation_email'],
       'terms_text' => $at['terms_text'],
+      'terms_text_valid' => $at['terms_text_valid'],
 		],
 		'country' => getCountry(),
 		'redirect_url' =>  $at['redirect_url'],
@@ -100,6 +102,12 @@ add_action( 'vc_before_init', 'bs_download_pdf_vc' );
         "heading" => "Terms Text",
         "param_name" => "terms_text",
         "value" => "Yes, I want to receive emails about ACN's work",
+      ],
+      [
+        "type" => "textfield",
+        "heading" => "Terms Validation",
+        "param_name" => "terms_text_valid",
+        "value" => "This field is required",
       ],
       [
         "type" => "textfield",
