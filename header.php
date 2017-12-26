@@ -31,7 +31,6 @@
 
   <link rel="apple-touch-icon-precomposed" href="//acninternational.org/wp-content/uploads/2017/03/fav2x.png" />
 	<title><?php echo bloginfo( 'name' ) ?> / <?php echo bloginfo( 'description' ) ?> <?php echo wp_title(); ?></title>
-  <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
   	<!--wordpress files-->
 	  <?php wp_head(); ?>
 		<!-- /wordpress files-->
