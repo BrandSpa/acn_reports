@@ -100,3 +100,10 @@ function add_svg_mime( $existing_mimes = array() ) {
 }
 
 add_post_type_support( 'page', 'excerpt' );
+
+function add_theme_scripts() {
+   
+	wp_enqueue_style( 'migrate', 'http://code.jquery.com/jquery-migrate-1.0.0.js', array('jquery' ), '1.1', true);
+   
+}
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
