@@ -81,5 +81,11 @@
 }
 </style>
 
-
+<style>
+.sticky{
+position: -webkit-sticky;
+position: sticky;
+top: 2em;
+}
+</style>
 <?php get_footer() ?>
