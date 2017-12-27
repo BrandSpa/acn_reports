@@ -18,7 +18,7 @@
 			>
 			</div>
 		</div>
-		<div class="col-5-l col-12-s post-text" style="word-wrap: break-word;">
+		<div class="col-7-l col-12-s post-text" style="word-wrap: break-word;">
 			<?php the_content() ?>
 
 			<div class="banner-horizontal">
