@@ -11,7 +11,13 @@
 <?php endif; ?>
 
 		<div id="post-content" class="l-wrap" style="margin-top: 80px">
-		<div class="col-1-l"></div>
+		<div class="col-1-l">
+			<div
+				class="bs-post-share"
+				data-props='<?php echo json_encode($props) ?>'
+			>
+			</div>
+		</div>
 		<div class="col-5-l col-12-s post-text" style="word-wrap: break-word;">
 			<?php the_content() ?>
 
@@ -37,48 +43,12 @@
 	</div>
 
 	</div>
-	<?php
-
-		$props = [
-			"title" => gett('¿Quiéres que el mundo conozca la realidad de la Iglesia que Sufre en el Mundo?'),
-			"subtitle" => gett('Comparte este artículo')
-		];
-
-	 ?>
-
-	<div
-		class="bs-post-share"
-		data-props='<?php echo json_encode($props) ?>'
-	>
-	</div>
-	<?php require('templates/post_donate.php') ?>
-	<div style="background:#f3f3f3">
-		<div class="l-wrap" style="margin: 0 auto; padding: 40px 0">
-			<h3 style="font-size: 28px; font-weight: normal; display: block; padding: 40px 0;color: #3C515F"><?php echo gett('Latest news'); ?></h3>
-			<?php require('templates/post_latest_2.php') ?>
-		</div>
-	</div>
 
   <?php endwhile; else : ?>
     <h2> <?php echo gett('404') ?> </h2>
   <?php endif; ?>
 </div>
 
-<script>
-	onLoad(function() {
-		console.log(window.innerWidth < '767');
-		if(window.innerWidth < '767') {
-			jQuery('.post-text').addClass('post-text--trim');
-			jQuery('.post-text').append('<div class="post-text__see_more"><button><?php echo gett("Read more") ?></button>');
-
-			jQuery(document).on('click', '.post-text__see_more > button', function() {
-				jQuery('.post-text').removeClass('post-text--trim');
-				jQuery(this).remove();
-			});
-		}
-
-	})
-</script>
 
 <style>
 .post-text--trim {
