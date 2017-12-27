@@ -11,7 +11,7 @@
 <?php endif; ?>
 
 		<div id="post-content" class="l-wrap" style="margin-top: 80px">
-		<div class="col-1-l">
+		<div class="col-1-l sticky">
 			<div
 				class="bs-post-share"
 				data-props='<?php echo json_encode($props) ?>'
