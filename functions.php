@@ -111,7 +111,8 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 if ( function_exists('register_sidebar') )
   register_sidebar(array(
-    'name' => 'Sidebar Area',
+	'name' => 'Sidebar Area',
+	'id' => 'post-widget-area',
     'before_widget' => '<div class="widget-area">',
     'after_widget' => '</div>',
     'before_title' => '<h3>',
