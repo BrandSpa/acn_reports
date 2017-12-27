@@ -32,9 +32,10 @@
 
 
 		<div class="col-3-l banner-vertical">
-		
-			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Name of Widgetized Area") ) : ?>
-			<?php endif;?>
+
+			<?php if ( is_active_sidebar( 'post_widget_area' ) ) : ?>
+					<?php dynamic_sidebar( 'post_widget_area' ); ?>
+			<?php endif; ?>
 
 			<?php if(get_lang() == 'en'): ?>
 				<?php echo get_option('banner_vertical_en') ?>
