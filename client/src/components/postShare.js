@@ -110,13 +110,13 @@ class PostShare extends Component {
           margin: 40px auto
         }
         .icon {
-          color: #939597;
+          color: rgb(0,0,0);
           width: 40px;
           height: 40px;
           border-radius: 40px;
           text-align: center;
           display: block;
-          border: 1px solid #939597;
+          border: 1px solid rgb(0,0,0);
           padding: 5px;
           font-size: 20px;
         }
