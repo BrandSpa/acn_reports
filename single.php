@@ -11,14 +11,14 @@
 <?php endif; ?>
 
 		<div id="post-content" class="l-wrap" style="margin-top: 80px">
-		<div class="col-1-l">
+		<div class="col-2-l">
 			<div
 				class="bs-post-share"
 				data-props='<?php echo json_encode($props) ?>'
 			>
 			</div>
 		</div>
-		<div class="col-5-l col-12-s post-text" style="word-wrap: break-word;">
+		<div class="col-7-l col-12-s post-text" style="word-wrap: break-word;">
 			<?php the_content() ?>
 
 			<div class="banner-horizontal">
@@ -30,7 +30,6 @@
 			</div>
 		</div>
 
-		<div class="col-2-l"></div>
 
 		<div class="col-3-l banner-vertical">
 			<?php if(get_lang() == 'en'): ?>
