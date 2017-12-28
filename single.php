@@ -109,6 +109,23 @@ position: relative;
 top: 2em;
 }
 
+blockquote p {
+    width: 95%;
+    font-style: italic;
+    font-size: 1.5em !important;
+    line-height: 1.4em;
+    font-family: Palatino, serif !important;
+    color: #525252;
+    font-weight: 500;
+}
+
+
+figcaption.vc_figure-caption {
+    color: #bbb;
+    font-size: 0.98em !important;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
 	.sticky{
 		position: -webkit-sticky;
