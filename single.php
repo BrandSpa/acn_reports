@@ -104,9 +104,17 @@
 }
 
 .sticky{
-position: -webkit-sticky;
-position: sticky;
+position: relative;
+position: relative;
 top: 2em;
+}
+
+@media (max-width: 991px) {
+	.sticky{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 2em;
+	}
 }
 </style>
 
