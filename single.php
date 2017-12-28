@@ -105,7 +105,6 @@
 
 .sticky{
 position: relative;
-position: relative;
 top: 2em;
 }
 
@@ -126,7 +125,7 @@ figcaption.vc_figure-caption {
     font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.sticky{
 		position: -webkit-sticky;
 		position: sticky;
