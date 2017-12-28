@@ -102,6 +102,12 @@
 	display: block;
 	margin: 0 auto;
 }
+
+.sticky{
+position: -webkit-sticky;
+position: sticky;
+top: 2em;
+}
 </style>
 
 
