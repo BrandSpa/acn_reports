@@ -10,7 +10,7 @@
 	<?php require('templates/post_header.php') ?>
 <?php endif; ?>
 
-		<div id="post-content" class="l-wrap" style="margin-top: 80px">
+		<div id="post-content" class="l-wrap" style="margin-top: 40px">
 		<div class="col-1-l sticky">
 			<div
 				class="bs-post-share"
@@ -18,7 +18,7 @@
 			>
 			</div>
 		</div>
-		<div class="col-7-l col-12-s post-text" style="word-wrap: break-word;">
+		<div class="col-6-l col-12-s post-text" style="word-wrap: break-word;">
 			<?php the_content() ?>
 
 			<div class="banner-horizontal">
@@ -31,7 +31,7 @@
 		</div>
 
 
-		<div class="col-3-l banner-vertical">
+		<div class="col-4-l banner-vertical">
 
 			<?php if ( is_active_sidebar( 'post_widget_area' ) ) : ?>
 					<?php dynamic_sidebar( 'post_widget_area' ); ?>
@@ -48,11 +48,34 @@
 
 	</div>
 
+<?php require('templates/post_donate.php') ?>
+	<div style="background:#f3f3f3">
+		<div class="l-wrap" style="margin: 0 auto; padding: 40px 0">
+			<h3 style="font-size: 28px; font-weight: normal; display: block; padding: 40px 0;color: #3C515F"><?php echo gett('Latest news'); ?></h3>
+			<?php require('templates/post_latest_2.php') ?>
+		</div>
+	</div>
+
   <?php endwhile; else : ?>
     <h2> <?php echo gett('404') ?> </h2>
   <?php endif; ?>
 </div>
 
+<script>
+	onLoad(function() {
+		console.log(window.innerWidth < '767');
+		if(window.innerWidth < '767') {
+			jQuery('.post-text').addClass('post-text--trim');
+			jQuery('.post-text').append('<div class="post-text__see_more"><button><?php echo gett("Read more") ?></button>');
+
+			jQuery(document).on('click', '.post-text__see_more > button', function() {
+				jQuery('.post-text').removeClass('post-text--trim');
+				jQuery(this).remove();
+			});
+		}
+
+	})
+</script>
 
 <style>
 .post-text--trim {
@@ -81,11 +104,5 @@
 }
 </style>
 
-<style>
-.sticky{
-position: -webkit-sticky;
-position: sticky;
-top: 2em;
-}
-</style>
+
 <?php get_footer() ?>

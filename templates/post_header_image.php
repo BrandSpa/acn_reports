@@ -11,17 +11,18 @@
 	
 	<div class="l-wrap">
 		<div class="single__header-title">
-				<h3 style="padding-bottom: 10px;color: #3C515F"><?php the_title() ?></h3>
-				<div class="breadcrumbs" style="margin: 3px 0 10px 0;  color: #b9b9b9" typeof="BreadcrumbList" vocab="https://schema.org/">
+				<h3 style="padding-bottom: 10px;color: #3C515F;"><?php the_title() ?></h3>
+				<div class="breadcrumbs" style="margin: 3px 0 10px 0;  color: #b9b9b9;font-style: italic;" typeof="BreadcrumbList" vocab="https://schema.org/">
 					<?php if(function_exists('bcn_display')) { bcn_display(); }?>
 				</div>
-				<span class="video__header__metadata" style="font-size: 1.1em; color: #4A4A4A">
-					<?php foreach(get_the_category($post->ID) as $ind => $category): ?>
-						<span style="font-weight: 600">
-							<?php echo $category->name ?> <?php echo $ind >= 0 && $ind + 1 != count(get_the_category($post->ID)) ?  '|' : '' ?>
+				<span class="video__header__metadata" style=" font-size: 0.9em; color: #bbb;">
+					<i class="icon ion-android-calendar" style="font-size: 16px; line-height: 15px;color: #3C515F;"></i> <?php echo '' . get_the_date( 'Y-m-d ', $post->ID ); ?>
+					<b style="margin-left:1em; color:#3C515F;">Tags: </b><?php foreach(get_the_tags($post->ID) as $ind => $tags): ?>
+						<span style="font-weight: 300;">
+							<?php echo $tags->name ?> <?php echo $ind >= 0 && $ind + 1 != count( get_the_tags($post->ID)) ?  ',' : '' ?>
 						</span>
 					<?php endforeach; ?>
-					<?php echo '/ ' . get_the_date( 'm - Y', $post->ID ); ?>
+					
 				</span>
 		</div>
 	</div>
