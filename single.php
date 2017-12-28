@@ -109,7 +109,7 @@ position: relative;
 top: 2em;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 	.sticky{
 		position: -webkit-sticky;
 		position: sticky;
