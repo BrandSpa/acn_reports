@@ -25,12 +25,12 @@ echo do_shortcode('[bs_accordion btn_title="'.gett('ACN International in the wor
 
 ?>
 
-<div class="bs-about">
-	<div class="col-3-l bs-about__left">
+<div class="bs-about" style=" display: flex; justify-content: center;align-items: center;">
+	<div class="col-2-l bs-about__left">
 		<img width="76" height="103" src="//acninternational.org/wp-content/uploads/2016/11/logoACNwhy2.png" class="vc_single_image-img attachment-full" alt="logoacnwhy2">
 	</div>
 
-	<div class="col-9-l bs-about__right">
+	<div class="col-10-l bs-about__right">
 		<h3 style="font-family: 'Source Sans Pro', sans-serif !important;"><?php echo gett('ABOUT US') ?></h3>
 		<p><?php echo gett('Founded in 1947 as a Catholic aid organization for war refugees and recognized as a papal foundation since 2011, ACN is dedicated to the service of Christians around the world, through information, prayer and action, wherever they are persecuted or oppressed or suffering material need. ACN supports every year an average of 6000 projects in close to 150 countries, thanks to private donations, as the foundation receives no public funding.') ?></p>
 	</div>

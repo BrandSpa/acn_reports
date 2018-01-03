@@ -1016,8 +1016,8 @@ button, .btn {
       min-height: 30px; } }
 
 .bs-about__left {
-  text-align: right;
-  padding: 40px 0 0 0; }
+  text-align: center;
+  padding: 0; }
   @media (max-width: 767px) {
     .bs-about__left {
       text-align: center; } }
@@ -1038,7 +1038,7 @@ button, .btn {
       border-bottom: 2px solid RGBA(241, 54, 78, 1);margin-top: 1em;}
   .bs-about__right p {
     display: block;
-    width: 80%;
+    width: 90%;
     line-height: 1.4; }
     @media (max-width: 767px) {
       .bs-about__right p {
