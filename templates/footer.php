@@ -1,5 +1,6 @@
 <?php
-error_reporting(0);
+ini_set('display_errors',0);
+error_reporting(E_ALL|E_STRICT);
 include_once str_replace('templates', '', __DIR__) . '/lib/offices_countries.php';
 ?>
 
