@@ -30,7 +30,7 @@ echo do_shortcode('[bs_accordion btn_title="'.gett('ACN International in the wor
 	</div>
 
 	<div class="col-9-l bs-about__right">
-		<h3><?php echo gett('ABOUT US') ?></h3>
+		<h3 style="font-family: 'Source Sans Pro', sans-serif !important;"><?php echo gett('ABOUT US') ?></h3>
 		<p><?php echo gett('Founded in 1947 as a Catholic aid organization for war refugees and recognized as a papal foundation since 2011, ACN is dedicated to the service of Christians around the world, through information, prayer and action, wherever they are persecuted or oppressed or suffering material need. ACN supports every year an average of 6000 projects in close to 150 countries, thanks to private donations, as the foundation receives no public funding.') ?></p>
 	</div>
 
@@ -59,52 +59,29 @@ echo do_shortcode('[bs_accordion btn_title="'.gett('ACN International in the wor
 		</div>
 
 		<div class="bs-footer__right--bottom">
-			<div class="col-3-l">
+			<div class="col-4-l">
 				<h5><?php echo gett('Contact') ?></h5>
 				<h6>ACN International</h6>
-				<h6><?php echo get_option('name_default') ?></h6>
+				<h6>Aid to the Church in Need gGmbH</h6>
 				<h6>Westerbachstraße 23 L</h6>
 				<h6>61476 Kronberg / Germany</h6>
-				<h6><?php echo get_option('contact_info_phone_default') ?></h6>
-				<ul class="bs-contact-info__social">
-					<?php if( !empty(get_option('contact_facebook_default')) ): ?>
-					<li>
-						<a href="<?php echo get_option('contact_facebook_default') ?>" target="_blank">
-							<i class="ion-social-facebook"></i>
-						</a>
-					</li>
-					<?php endif; ?>
-					<?php if( !empty(get_option('contact_twitter_default')) ): ?>
-					<li>
-						<a href="<?php echo get_option('contact_twitter_default') ?>" target="_blank">
-							<i class="ion-social-twitter"></i>
-						</a>
-					</li>
-					<?php endif; ?>
-					<?php if( !empty(get_option('contact_youtube_default')) ): ?>
-					<li>
-						<a href="<?php echo get_option('contact_youtube_default') ?>" target="_blank">
-							<i class="ion-social-youtube"></i>
-						</a>
-					</li>
-					<?php endif; ?>
-					<?php if( !empty(get_option('contact_instagram_default')) ): ?>
-					<li>
-						<a href="<?php echo get_option('contact_instagram_default') ?>" target="_blank">
-							<i class="ion-social-instagram"></i>
-						</a>
-					</li>
-					<?php endif; ?>
-				</ul>
+				<h6><?php echo get_option('contact_info_phone_default') ?></h6>			
 			</div>
 
-			<div class="col-3-l">
-				<?php echo do_shortcode('[bs_contact_info]') ?>
+			<div class="col-4-l">
+				<h5 style="visibility: hidden;"><?php echo gett('Contact') ?></h5>
+				<h6>C/ Ferrer del Río, 14</h6>
+				<h6>(esq. C/ Ardemans)</h6>
+				<h6>28028 MADRID</h6>
+				<h6><a href="mailto:info@ayudaalaiglesianecesitada.org">info@ayudaalaiglesianecesitada.org</a></h6>
+				<h6><a href="tel:+34917259212">91 725 92 12</a></h6>
 			</div>
 
-			<div class="col-6-l privacy-terms">
+			<div class="col-4-l privacy-terms">
+				<br/><br/>
 				<h6><a href="<?php echo gett('https://acninternational.org/privacy-policy/') ?>"><?php echo gett('PRIVACY POLICY') ?></a></h6>
 				<h6><a href="<?php echo gett('https://acninternational.org/terms-and-conditions/') ?>"><?php echo gett('TERMS & CONDITIONS') ?></a></h6>
+				<h6>KPMG</h6>
 			</div>
 		</div>
 	</div>

@@ -375,7 +375,7 @@ select {
   font-size: .8em; }
   input:focus,
   select:focus {
-    border-color: #f7c723;
+    border-color: #5aa1e3;
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none; }
@@ -444,6 +444,8 @@ body {
   transition: margin 300ms;
   position: relative;
   left: 0;
+    user-select: auto !important;
+    -ms-user-select: auto !important;
   -webkit-transition: left 300ms;
   transition: left 300ms;
   padding-top: 90px;
@@ -598,12 +600,12 @@ button, .btn {
   height: 45px;
   background: #F4334A;
   border: none;
-  padding: 1px 40px;
-  font-size: 20px;
+  padding: 1px 30px;
+  font-size: 1.15em;
   text-align: center;
   color: #fff;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 300;
   border-radius: 5px; }
   button:focus, .btn:focus {
     outline: none; }
@@ -699,7 +701,8 @@ button, .btn {
       .download-pdf button {
         margin-left: 15px; } }
   .download-pdf input, .download-pdf select {
-    width: 100%; }
+    width: 95%;
+    border-radius: 5px; }
 
 .bs-share {
   border: 1px solid #3C515F;
@@ -1032,7 +1035,7 @@ button, .btn {
       display: block;
       content: ' ';
       width: 60%;
-      border-bottom: 2px solid RGBA(241, 54, 78, 1); }
+      border-bottom: 2px solid RGBA(241, 54, 78, 1);margin-top: 1em;}
   .bs-about__right p {
     display: block;
     width: 80%;
@@ -1042,7 +1045,7 @@ button, .btn {
         width: 100%; } }
 
 .bs-footer__left {
-  height: 400px;
+  height: 360px;
   background: RGBA(60, 81, 95, 1);
   color: #fff;
   padding: 50px 60px 0 60px; }
@@ -1062,7 +1065,7 @@ button, .btn {
       text-align: center; } }
 
 .bs-footer__right {
-  height: 400px;
+  height: 360px;
   padding: 0; }
   @media (max-width: 767px) {
     .bs-footer__right {
@@ -1077,7 +1080,7 @@ button, .btn {
         height: auto; } }
   .bs-footer__right--bottom {
     width: 100%;
-    height: 300px;
+    height: 260px;
     background-color: RGBA(43, 58, 68, 1);
     background-image: url("https://acninternational.org/wp-content/uploads/2017/02/wire_white_bg2.png");
     color: #fff;
@@ -2378,3 +2381,7 @@ a:hover {
     .single__header-title {
       padding: 20px;
       width: 100%; } }
+
+area {
+    outline: 0;
+}
