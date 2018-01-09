@@ -1,11 +1,11 @@
 const setMenu = function setMenu() {
-  const $menu = $('.xmenu');
+  const $menu = $('.menu');
   const currentLang = $('.menu .current-lang > a');
   $menu.find('.current-lang').addClass('dropdown');
   $menu.find('.current-lang').append('<div class="dropdown-content"></div>');
 
   const langs = $('.menu .lang-item').not($('.current-lang'));
-  console.log(langs);
+
   langs.each(function () {
     $menu.find('.dropdown-content').append($(this).html());
     $(this).remove();
