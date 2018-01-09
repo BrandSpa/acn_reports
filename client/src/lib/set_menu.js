@@ -1,5 +1,5 @@
 const setMenu = function setMenu() {
-  const $menu = $('.menu');
+  const $menu = $('.xmenu');
   const currentLang = $('.menu .current-lang > a');
   $menu.find('.current-lang').addClass('dropdown');
   $menu.find('.current-lang').append('<div class="dropdown-content"></div>');
