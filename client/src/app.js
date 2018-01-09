@@ -46,7 +46,7 @@ import smoothScroll from './lib/smoothScroll';
 import scrollViaCrucisNav from './lib/scrollViaCrucisNav';
 import toggleViaCrucisNav from './lib/toggleViaCrucisNav';
 import toggleMenu from './lib/toggleMenu';
-import stickyMenu from './lib/stickMenu';
+import blockquoteFormat from './lib/blockquoteFormat';
 
 
 
@@ -92,12 +92,12 @@ multipleRender(ContactSpain, '.bs-contact-spain', true);
 
 // jquery calls
 setMenu();
+blockquoteFormat();
 setMenuMobile();
 donateRedirect();
 smoothScroll();
 toggleViaCrucisNav();
 scrollViaCrucisNav();
-stickyMenu();
 toggleMenu();
 
 Raven.config('https://c1adcd5efa4f4e82b327c1780b0f7119@sentry.io/251903').install()

@@ -11,3 +11,12 @@ Text Domain: ACN International Theme
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+p{
+    font-size: 1,333em;
+}
+
+#post-content {
+    width: 70%;
+    margin: 0 auto;
+}
