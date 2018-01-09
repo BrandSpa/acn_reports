@@ -2375,7 +2375,7 @@ a:hover {
   left: 0;
   right: 0;
   margin: auto;
-  width: 80%;
+  width: 65%;
   padding: 40px 55px 0 55px; }
   @media (max-width: 767px) {
     .single__header-title {
@@ -2384,4 +2384,61 @@ a:hover {
 
 area {
     outline: 0;
+}
+
+.bs-post p strong {
+    color: #222222;
+}
+
+.bs-post p {
+    color: #414141;
+}
+
+.bs-post figcaption.vc_figure-caption {
+    color: #777777;
+    font-size: 1em !important;
+    font-style: italic;
+    margin-top: .8em !important;
+    margin-bottom: 2em;
+}
+
+.bs-post h1 {
+    font-size: 2.5em;
+	color:#222222;
+}
+
+.bs-post h2 {
+    font-size: 1.5em;
+	color:#777777;
+}
+
+.countryHeight{
+    height: 13vh;
+    padding: 1.5em 0em !important;
+}
+
+@media (max-width: 768px) {
+	.bs-about {
+		display: inline-block !important;
+		padding-top: 5em;
+	}
+	
+	#columnfive .vc_col-sm-2 {
+        width: 100%;
+    }
+	.quote {
+		padding: 1em !important; 
+	}
+}
+
+@media (max-width: 500px) {
+    .col-sm-9[data-jsx="3333865590"] {
+        width: 100% !important;
+    }
+    .col-sm-6[data-jsx="3333865590"] {
+        width: 100% !important;
+    }
+    .col-sm-3[data-jsx="3333865590"] {
+        width: 50% !important;
+    }
 }

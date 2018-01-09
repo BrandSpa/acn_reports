@@ -11,7 +11,7 @@
 	
 	<div class="l-wrap">
 		<div class="single__header-title">
-				<h3 style="padding-bottom: 10px;color: #2D2D2D;font-weight: 900;padding-bottom:.8em;"><?php the_title() ?></h3>
+				<h1 style="font-weight: 900;"><?php the_title() ?></h1>
 				<div class="breadcrumbs" style="margin: 3px 0 10px 0;  color: #b9b9b9;font-style: italic;" typeof="BreadcrumbList" vocab="https://schema.org/">
 					<?php if(function_exists('bcn_display')) { bcn_display(); }?>
 				</div>
