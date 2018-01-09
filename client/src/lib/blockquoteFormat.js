@@ -1,10 +1,6 @@
 function blockquote() {
   $('blockquote').each(function(){
-    let text = $(this).clone()    //clone the element
-    .children() //select all the children
-    .remove()   //remove all the children
-    .end()  //again go back to selected element
-    .text();    //get the text of element
+    let text = this.childNodes[0].nodevalue;
     text = "»"+text+"«";
     let paragraph = document.createElement('p');
     paragraph.innerText = text;
