@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="col-6-l col-12-s post-text" style="word-wrap: break-word;color: #535353;">
-				<?php the_content() ?>	
+			<?php the_content() ?>
 
 			<div class="banner-horizontal">
 			<?php if(get_lang() == 'en'): ?>
