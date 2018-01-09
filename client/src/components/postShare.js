@@ -80,7 +80,7 @@ class PostShare extends Component {
       </div>
       <style jsx>{`
         .bs-post__share {
-          background: #F7F7F7
+          background: tran
         }
 
         .bs-post__share-subtitle {
@@ -94,12 +94,14 @@ class PostShare extends Component {
         }
 
         ul {
-          display: inline-block
+          display: block;
+          padding:0;
         }
 
         ul li {
           display: inline-block;
           margin-right: 15px
+          padding-bottom: 1em;
         }
 
         .title {
