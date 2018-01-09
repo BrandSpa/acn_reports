@@ -56,4 +56,4 @@ remove_action( 'wp_print_styles', 'print_emoji_styles' );
 //
 // add_filter('tiny_mce_before_init', 'bs_tinymce_fix');
 
-remove_filter( 'the_content', 'wpautop' );
+//remove_filter( 'the_content', 'wpautop' );
