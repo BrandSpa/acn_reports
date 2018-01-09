@@ -37,11 +37,6 @@
 					<?php dynamic_sidebar( 'post_widget_area' ); ?>
 			<?php endif; ?>
 
-			<?php if(get_lang() == 'en'): ?>
-				<?php echo get_option('banner_vertical_en') ?>
-			<?php else: ?>
-				<?php echo get_option('banner_vertical_es') ?>
-			<?php endif; ?>
 		</div>
 
 	</div>

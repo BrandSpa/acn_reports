@@ -790,7 +790,6 @@ button, .btn {
     display: block;
     padding: 2em;
     text-align: center;
-    background: #f7f7f7;
     margin-left: 2em; }
   @media (max-width: 767px) {
     .banner-vertical {
@@ -2382,6 +2381,13 @@ a:hover {
       padding: 20px;
       width: 100%; } }
 
+#post-content {
+	width: 70%;
+	margin: 0 auto;}
+	 @media (max-width: 767px) {
+		#post-content { width: 100%;
+		 margin: 0 auto;}}
+
 area {
     outline: 0;
 }
@@ -2392,15 +2398,21 @@ area {
 
 .bs-post p {
     color: #414141;
+	font-size:1.333em;
 }
 
-.bs-post figcaption.vc_figure-caption {
+.bs-post img {
+    max-width: 100%;
+}
+
+.bs-post .wp-caption-text {
     color: #777777;
     font-size: 1em !important;
     font-style: italic;
     margin-top: .8em !important;
     margin-bottom: 2em;
 }
+
 
 .bs-post h1 {
     font-size: 2.5em;
@@ -2441,4 +2453,65 @@ area {
     .col-sm-3[data-jsx="3333865590"] {
         width: 50% !important;
     }
+}
+
+
+
+.banner-vertical .sidebar {
+    background: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.banner-vertical .sidebar li{
+	text-align: left;
+}
+
+.banner-vertical .sidebar li a {
+    font-size: 1.3em;
+    color: #3C515F;
+	font-weight: 300;
+}
+
+.banner-vertical .sidebar li a:hover {
+    color: #f1364e;
+}
+
+
+.banner-vertical .sidebar-tag .tagcloud a {
+    font-size: 1.2em !important;
+    padding: 0.5em 0.8em;
+    background: #d1d1d1;
+    line-height: 2.45em !important;
+    color: #fcfcfc;
+}
+
+.banner-vertical .sidebar-tag .tagcloud {
+    margin-top: 1em;
+}
+
+.banner-vertical .widget-area h2 {
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 1px solid #bdc0ca;
+    color: #bdc0ca;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 600;
+}
+
+
+
+.banner-vertical .sidebar-menu {
+    height: 15.3em;
+}
+
+.banner-vertical .sidebar-menu li {
+    width: 100%;
+    margin-left: 1.5em;
+    padding: 0.12em 0;
+}
+
+
+.banner-vertical .sidebar-menu .bs-donate {
+    display: none;
 }
