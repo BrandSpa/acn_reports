@@ -11,5 +11,5 @@ function blockquote() {
 }
 
 export default function blockquoteFormat() {
-  $(document).on('ready', blockquote);
+  $(document).on('ready', blockquote());
 }
