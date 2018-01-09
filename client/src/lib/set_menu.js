@@ -5,7 +5,7 @@ const setMenu = function setMenu() {
   $menu.find('.current-lang').append('<div class="dropdown-content"></div>');
 
   const langs = $('.menu .lang-item').not($('.current-lang'));
-
+  console.log(langs);
   langs.each(function () {
     $menu.find('.dropdown-content').append($(this).html());
     $(this).remove();
