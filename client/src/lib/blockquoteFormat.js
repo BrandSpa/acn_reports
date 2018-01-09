@@ -1,5 +1,6 @@
 function blockquote() {
-  let text = $('blockquote').each(function(){
+  $('blockquote').each(function(){
+    let text = $(this).text();
     text = ">>"+text+"<<";
     let paragraph = document.createElement('p');
     paragraph.innerText = text;
