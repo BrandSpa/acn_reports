@@ -6,6 +6,8 @@ function blockquote() {
     text = "»"+text+"«";
     paragraph.innerText = text;
 
+    $(paragraph).find('br, p').remove();
+
     $(this).html(paragraph);
 
   });
