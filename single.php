@@ -13,7 +13,7 @@
         <?php endif; ?>
     </section>
 
-    <section class="single-content">
+    <section class="single-content row">
         <!-- Social Area -->
         <aside class="social-sidebar col-sm-2">
             <div class="sticky">
