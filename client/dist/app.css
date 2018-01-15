@@ -3399,6 +3399,9 @@ html {
           height: 1px;
           background: #ccc;
           left: 0; }
+        .bs-post .widget-area ul > li:hover:before {
+          top: 5%;
+          content: "\f3d0"; }
         .bs-post .widget-area ul > li:hover:after {
           background: #f1364e; }
         .bs-post .widget-area ul > li:hover > ul {

@@ -143,6 +143,10 @@
 				}
 
 				&:hover{
+					&:before{
+						top: 5%;
+						content: "\f3d0";
+					}
 					&:after{
 						background: rgb(241, 54, 78);
 					}
