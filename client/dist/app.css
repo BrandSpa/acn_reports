@@ -3385,7 +3385,7 @@ html {
           background: #ccc;
           left: 0; }
         .bs-post .widget-area ul li:hover:after {
-          color: #f1364e; }
+          background: #f1364e; }
         .bs-post .widget-area ul li:hover > ul {
           display: block; }
     .bs-post .widget-area.sidebar-tag .tagcloud a {
