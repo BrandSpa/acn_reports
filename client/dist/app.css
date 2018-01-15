@@ -3529,7 +3529,7 @@ html {
       color: #fff;
       margin: 30px auto; }
 
-.download-pdf input {
+.download-pdf input, .download-pdf select {
   border-radius: .5em;
   background: #FFF; }
 
