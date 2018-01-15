@@ -3333,6 +3333,24 @@ html {
       padding-top: 10%; }
       .bs-post .article .content strong {
         color: #222222; }
+  .bs-post .widget-area h2 {
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 1px solid #bdc0ca;
+    color: #bdc0ca;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 600; }
+  .bs-post .widget-area .sidebar {
+    background: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 1em; }
+  .bs-post .widget-area .sidebar-menu {
+    height: 15.3em; }
+    .bs-post .widget-area .sidebar-menu li {
+      width: 100%;
+      margin-left: 1.5em;
+      padding: 0.12em 0;
+      text-align: left; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }
