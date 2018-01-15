@@ -3390,7 +3390,8 @@ html {
             position: absolute;
             top: 15px; }
         .bs-post .widget-area ul > li ul {
-          display: none; }
+          display: none;
+          border-top: 1px solid #ccc; }
         .bs-post .widget-area ul > li:after {
           content: "";
           width: 100%;
