@@ -113,6 +113,13 @@
 					padding-left: 3%;
 				}
 
+				&:before{
+					content: "\f3d1";
+					left: 5px;
+					display: block; 
+					position: absolute
+				}
+
 				&:after{
 					content: "";
 					width: 100%;

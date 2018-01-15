@@ -3375,6 +3375,11 @@ html {
         .bs-post .widget-area ul li ul {
           display: none;
           padding-left: 3%; }
+        .bs-post .widget-area ul li:before {
+          content: "\f3d1";
+          left: 5px;
+          display: block;
+          position: absolute; }
         .bs-post .widget-area ul li:after {
           content: "";
           width: 100%;
