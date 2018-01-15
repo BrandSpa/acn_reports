@@ -3333,6 +3333,13 @@ html {
       padding-top: 10%; }
       .bs-post .article .content strong {
         color: #222222; }
+  .bs-post .searchform div {
+    position: relative; }
+    .bs-post .searchform div input [type=text] {
+      width: 100%;
+      padding-right: 15px; }
+    .bs-post .searchform div input [type=submit] {
+      width: 15px; }
   .bs-post .widget-area {
     background: #f7f7f7;
     margin-bottom: 1em; }

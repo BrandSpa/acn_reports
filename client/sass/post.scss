@@ -58,10 +58,28 @@
 			}
 		}
 	}
+	.searchform{
+
+		div{
+			position: relative;
+
+			input{
+				[type=text]{
+					width: 100%;
+					padding-right: 15px; 
+				}
+				
+				[type=submit]{
+					width: 15px;
+				}
+			}
+			
+		}
+	}
 	.widget-area{
 		background: #f7f7f7;
 		margin-bottom: 1em;
-		
+
 		h2{
 			text-transform: uppercase;
 			text-align: left;
