@@ -144,8 +144,17 @@
 				}
 
 				&:hover{
-					&>a:before{
-						content: "\f3d0";
+					&>a{
+						&:before{
+							content: "\f3d0";
+						}
+						ul{
+							li{
+								a:before{
+									content: "\f3d1";
+								}
+							}
+						}
 					}
 					&:after{
 						background: rgb(241, 54, 78);

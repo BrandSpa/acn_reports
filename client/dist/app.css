@@ -3402,6 +3402,8 @@ html {
           left: 0; }
         .bs-post .widget-area ul > li:hover > a:before {
           content: "\f3d0"; }
+        .bs-post .widget-area ul > li:hover > a ul li a:before {
+          content: "\f3d1"; }
         .bs-post .widget-area ul > li:hover:after {
           background: #f1364e; }
         .bs-post .widget-area ul > li:hover > ul {
