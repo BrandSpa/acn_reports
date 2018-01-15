@@ -3366,8 +3366,8 @@ html {
         text-align: left;
         background: #FFF;
         width: 100%;
-        border-bottom: 1px solid #ccc;
-        padding: 5%; }
+        padding: 5%;
+        position: relative; }
         .bs-post .widget-area ul li a {
           font-size: 1.2em;
           color: #3C515F;
