@@ -3355,6 +3355,12 @@ html {
           font-size: 1.2em;
           color: #3C515F;
           font-weight: 300; }
+  .bs-post .widget-area.sidebar-tag .tagcloud a {
+    font-size: 1.2em !important;
+    padding: 0.5em 0.8em;
+    background: #d1d1d1;
+    line-height: 2.45em !important;
+    color: #fcfcfc; }
   .bs-post .widget-area.sidebar-menu {
     height: 15.3em; }
   .bs-post .sticky {

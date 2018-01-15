@@ -87,6 +87,15 @@
 			}
 			
 		}
+		&.sidebar-tag{
+			.tagcloud a{
+				font-size: 1.2em !important;
+				padding: 0.5em 0.8em;
+				background: #d1d1d1;
+				line-height: 2.45em !important;
+				color: #fcfcfc;
+			}
+		}
 		&.sidebar-menu{
 			height: 15.3em;
 		}
