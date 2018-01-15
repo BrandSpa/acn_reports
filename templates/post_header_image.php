@@ -1,6 +1,6 @@
 
 <div class="l-wrap">
-	<div class="single__header-title">
+	<div class="single_post-title">
 			<h1 style="font-weight: 900;"><?php the_title() ?></h1>
 			<div class="breadcrumbs" style="margin: 3px 0 10px 0;  color: #b9b9b9;font-style: italic;" typeof="BreadcrumbList" vocab="https://schema.org/">
 				<?php if(function_exists('bcn_display')) { bcn_display(); }?>
