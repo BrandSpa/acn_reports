@@ -3357,6 +3357,9 @@ html {
           font-weight: 300; }
   .bs-post .widget-area.sidebar-menu {
     height: 15.3em; }
+  .bs-post .sticky {
+    position: relative;
+    top: 3.8em; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }

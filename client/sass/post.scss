@@ -91,6 +91,10 @@
 			height: 15.3em;
 		}
 	}
+	.sticky{
+		position: relative;
+		top: 3.8em;
+	}
 	@media #{$s} {
 		padding: 0 20px;
 	}
