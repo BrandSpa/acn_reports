@@ -3388,9 +3388,7 @@ html {
             left: 5%;
             display: block;
             position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            transform: translateY(-50%); }
+            top: 15px; }
         .bs-post .widget-area ul > li ul {
           display: none; }
         .bs-post .widget-area ul > li:after {
