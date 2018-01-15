@@ -7,9 +7,7 @@
     <!-- Header Banner Area -->
     <section>
         <?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
-        <?php require('templates/post_header_image.php') ?>
-        <?php else: ?>
-        <?php require('templates/post_header.php') ?>
+        <?php require('templates/post_banner.php') ?>
         <?php endif; ?>
     </section>
 
@@ -30,7 +28,11 @@
 
             <!-- Post Header -->
             <header>
-
+                <?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
+                <?php require('templates/post_header_image.php') ?>
+                <?php else: ?>
+                <?php require('templates/post_header.php') ?>
+                <?php endif; ?>
             </header>
 
             <?php the_content() ?>
