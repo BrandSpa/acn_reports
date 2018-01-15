@@ -67,12 +67,12 @@
 			font-family: 'Source Sans Pro', sans-serif !important;
 			font-weight: 600;
 		}
-		.sidebar{
+		&.sidebar{
 			background: #f7f7f7;
 			padding: 1em;
 			margin-bottom: 1em;
 		}
-		.sidebar-menu{
+		&.sidebar-menu{
 			height: 15.3em;
 			li{
 				width: 100%;
