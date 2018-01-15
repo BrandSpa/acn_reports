@@ -3371,7 +3371,8 @@ html {
         text-align: left;
         background: #FFF;
         width: 100%;
-        position: relative; }
+        position: relative;
+        cursor: pointer; }
         .bs-post .widget-area ul > li a {
           font-size: 1.2em;
           color: #3C515F;
