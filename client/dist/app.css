@@ -3349,7 +3349,10 @@ html {
       padding: 0; }
   .bs-post .widget-area {
     background: #f7f7f7;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    border: 1px solid #f7f7f7;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1); }
     .bs-post .widget-area h2 {
       text-transform: uppercase;
       text-align: left;
