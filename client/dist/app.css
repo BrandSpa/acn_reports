@@ -3305,8 +3305,6 @@ html {
     position: relative;
     overflow: auto; }
   .bs-post .bs-post__share ul {
-    position: -webkit-sticky;
-    position: sticky;
     width: 100%; }
     .bs-post .bs-post__share ul li {
       display: block !important; }
