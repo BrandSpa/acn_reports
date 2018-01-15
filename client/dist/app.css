@@ -3302,8 +3302,7 @@ html {
       font-size: 1.5em; } }
   .bs-post .single-content {
     clear: both;
-    position: relative;
-    overflow: auto; }
+    position: relative; }
   .bs-post .bs-post__share ul {
     width: 100%; }
     .bs-post .bs-post__share ul li {
