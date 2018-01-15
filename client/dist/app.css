@@ -3373,22 +3373,26 @@ html {
         width: 100%;
         padding: 5%;
         position: relative;
-        padding-left: 15%; }
+        padding-left: 10%;
+        padding-right: 10%; }
         .bs-post .widget-area ul > li a {
           font-size: 1.2em;
           color: #3C515F;
-          font-weight: 300; }
+          font-weight: 300;
+          padding: 5%;
+          width: 100%;
+          display: block; }
+          .bs-post .widget-area ul > li a:before {
+            font-family: "Ionicons";
+            content: "\f3d1";
+            left: 5%;
+            display: block;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
         .bs-post .widget-area ul > li ul {
           display: none; }
-        .bs-post .widget-area ul > lia:before {
-          font-family: "Ionicons";
-          content: "\f3d1";
-          left: 5%;
-          display: block;
-          position: absolute;
-          top: 50%;
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
         .bs-post .widget-area ul > li:after {
           content: "";
           width: 100%;
