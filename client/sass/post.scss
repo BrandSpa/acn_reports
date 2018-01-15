@@ -126,7 +126,9 @@
 					content: "\f3d1";
 					left: 5px;
 					display: block; 
-					position: absolute
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
 				}
 
 				&:after{

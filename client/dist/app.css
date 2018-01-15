@@ -3386,7 +3386,10 @@ html {
           content: "\f3d1";
           left: 5px;
           display: block;
-          position: absolute; }
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
         .bs-post .widget-area ul > li:after {
           content: "";
           width: 100%;
