@@ -3349,19 +3349,21 @@ html {
       padding: 0; }
   .bs-post .widget-area {
     background: #f7f7f7;
-    margin-bottom: 1em;
-    padding: 5%; }
+    margin-bottom: 1em; }
     .bs-post .widget-area h2 {
       text-transform: uppercase;
       text-align: left;
       border-bottom: 1px solid #bdc0ca;
       color: #bdc0ca;
       font-family: 'Source Sans Pro', sans-serif !important;
-      font-weight: 600; }
+      font-weight: 600;
+      padding: 5%;
+      width: 100%; }
     .bs-post .widget-area ul {
       padding: 0;
       width: 100%;
-      list-style: none; }
+      list-style: none;
+      float: none; }
       .bs-post .widget-area ul > li {
         text-align: left;
         background: #FFF;

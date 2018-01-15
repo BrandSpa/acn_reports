@@ -82,7 +82,6 @@
 	.widget-area{
 		background: #f7f7f7;
 		margin-bottom: 1em;
-		padding: 5%;
 		h2{
 			text-transform: uppercase;
 			text-align: left;
@@ -90,12 +89,16 @@
 			color: #bdc0ca;
 			font-family: 'Source Sans Pro', sans-serif !important;
 			font-weight: 600;
+			padding: 5%;
+			width: 100%;
 		}
 		
 		ul{
 			padding: 0;
 			width: 100%;
 			list-style: none;
+			float: none;
+			
 			&>li{
 				text-align: left;
 				background: #FFF;
