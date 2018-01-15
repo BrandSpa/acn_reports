@@ -131,8 +131,5 @@ function my_add_post_type_arg_filt($add_query_arg, $type, $taxonomy)
 add_action('bcn_after_fill', 'foo_pop');
 function foo_pop($trail)
 {
-  if(is_page('page_foo'))
-  {
     array_pop($trail->breadcrumbs);
-  }
 }
