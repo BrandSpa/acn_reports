@@ -3,14 +3,13 @@
 <div id="acn_int" class="bs-post" >
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    <div class="container">
     <!-- Header Banner Area -->
     <section>
         <?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
         <?php require('templates/post_banner.php') ?>
         <?php endif; ?>
     </section>
-
+    <div class="container">
     <section class="single-content row">
         <!-- Social Area -->
         <aside class="social-sidebar col-sm-2 col-xs-12">
