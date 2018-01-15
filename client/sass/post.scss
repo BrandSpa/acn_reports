@@ -96,12 +96,14 @@
 			padding: 0;
 			width: 100%;
 			list-style: none;
-			li{
+			&>li{
 				text-align: left;
 				background: #FFF;
 				width: 100%;
 				padding: 5%;
 				position: relative;
+				padding-left: 15%;
+				
 				a{
 					font-size: 1.2em;
 					color: #3C515F;

@@ -3362,25 +3362,26 @@ html {
       padding: 0;
       width: 100%;
       list-style: none; }
-      .bs-post .widget-area ul li {
+      .bs-post .widget-area ul > li {
         text-align: left;
         background: #FFF;
         width: 100%;
         padding: 5%;
-        position: relative; }
-        .bs-post .widget-area ul li a {
+        position: relative;
+        padding-left: 15%; }
+        .bs-post .widget-area ul > li a {
           font-size: 1.2em;
           color: #3C515F;
           font-weight: 300; }
-        .bs-post .widget-area ul li ul {
+        .bs-post .widget-area ul > li ul {
           display: none;
           padding-left: 3%; }
-        .bs-post .widget-area ul li:before {
+        .bs-post .widget-area ul > li:before {
           content: "\f3d1";
           left: 5px;
           display: block;
           position: absolute; }
-        .bs-post .widget-area ul li:after {
+        .bs-post .widget-area ul > li:after {
           content: "";
           width: 100%;
           display: block;
@@ -3389,9 +3390,9 @@ html {
           height: 1px;
           background: #ccc;
           left: 0; }
-        .bs-post .widget-area ul li:hover:after {
+        .bs-post .widget-area ul > li:hover:after {
           background: #f1364e; }
-        .bs-post .widget-area ul li:hover > ul {
+        .bs-post .widget-area ul > li:hover > ul {
           display: block; }
     .bs-post .widget-area.sidebar-tag .tagcloud a {
       font-size: 1.2em !important;
