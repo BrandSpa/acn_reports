@@ -106,10 +106,7 @@
 				text-align: left;
 				background: #FFF;
 				width: 100%;
-				padding: 5%;
 				position: relative;
-				padding-left: 10%;
-				padding-right: 10%;
 
 				a{
 					font-size: 1.2em;
@@ -118,6 +115,8 @@
 					padding: 5%;
 					width: 100%;
 					display: block;
+					padding-left: 10%;
+					padding-right: 10%;
 					&:before{
 						font-family:"Ionicons";
 						content: "\f3d1";

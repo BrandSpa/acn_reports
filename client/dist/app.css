@@ -3371,17 +3371,16 @@ html {
         text-align: left;
         background: #FFF;
         width: 100%;
-        padding: 5%;
-        position: relative;
-        padding-left: 10%;
-        padding-right: 10%; }
+        position: relative; }
         .bs-post .widget-area ul > li a {
           font-size: 1.2em;
           color: #3C515F;
           font-weight: 300;
           padding: 5%;
           width: 100%;
-          display: block; }
+          display: block;
+          padding-left: 10%;
+          padding-right: 10%; }
           .bs-post .widget-area ul > li a:before {
             font-family: "Ionicons";
             content: "\f3d1";
