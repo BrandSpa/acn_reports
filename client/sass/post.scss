@@ -71,9 +71,6 @@
 			background: #f7f7f7;
 			padding: 1em;
 			margin-bottom: 1em;
-		}
-		&.sidebar-menu{
-			height: 15.3em;
 			li{
 				width: 100%;
 				margin-left: 1.5em;
@@ -85,6 +82,9 @@
 					font-weight: 300;
 				}
 			}
+		}
+		&.sidebar-menu{
+			height: 15.3em;
 		}
 	}
 	@media #{$s} {
