@@ -3304,6 +3304,14 @@ html {
     clear: both;
     position: relative;
     overflow: auto; }
+  .bs-post .bs-post__share ul {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%; }
+    .bs-post .bs-post__share ul li {
+      display: block !important; }
+      .bs-post .bs-post__share ul li a {
+        margin: 0 auto; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }

@@ -15,7 +15,7 @@
 
     <section class="single-content row">
         <!-- Social Area -->
-        <aside class="social-sidebar col-sm-2">
+        <aside class="social-sidebar col-sm-2 col-xs-12">
             <div class="sticky">
                 <div
                     class="bs-post-share"
