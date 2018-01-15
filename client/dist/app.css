@@ -3305,6 +3305,10 @@ html {
     position: relative; }
   .bs-post .single_post-title {
     position: relative; }
+    .bs-post .single_post-title h1 {
+      font-size: 2.5em; }
+  .bs-post h2 {
+    font-size: 1.5em; }
   .bs-post .bs-post__share ul {
     width: 100%; }
     .bs-post .bs-post__share ul li {
