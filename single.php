@@ -1,6 +1,6 @@
 <?php get_header() ?>
 <!-- Init Page -->
-<div id="acn_int" class="bs-post" >
+<div id="acn_int" class="bs-post container" >
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
