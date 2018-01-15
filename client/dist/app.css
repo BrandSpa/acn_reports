@@ -3360,7 +3360,8 @@ html {
       font-weight: 600; }
     .bs-post .widget-area ul {
       padding: 0;
-      width: 100%; }
+      width: 100%;
+      list-style: none; }
       .bs-post .widget-area ul li {
         margin-left: 1.5em;
         padding: 0.12em 0;
