@@ -59,6 +59,9 @@
 		}
 	}
 	.widget-area{
+		background: #f7f7f7;
+		margin-bottom: 1em;
+		
 		h2{
 			text-transform: uppercase;
 			text-align: left;
@@ -67,26 +70,22 @@
 			font-family: 'Source Sans Pro', sans-serif !important;
 			font-weight: 600;
 		}
-		&.sidebar{
-			background: #f7f7f7;
-			padding: 1em;
-			margin-bottom: 1em;
-			ul{
-				padding-left: 1%;
-				width: 100%;
-				li{
-					margin-left: 1.5em;
-					padding: 0.12em 0;
-					text-align: left;
-					a{
-						font-size: 1.2em;
-						color: #3C515F;
-						font-weight: 300;
-					}
+		
+		ul{
+			padding: 0;
+			width: 100%;
+			li{
+				margin-left: 1.5em;
+				padding: 0.12em 0;
+				text-align: left;
+				a{
+					font-size: 1.2em;
+					color: #3C515F;
+					font-weight: 300;
 				}
 			}
-			
 		}
+			
 		&.sidebar-tag{
 			.tagcloud a{
 				font-size: 1.2em !important;
