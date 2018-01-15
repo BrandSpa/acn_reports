@@ -3538,6 +3538,9 @@ html {
 
 .countryHeight {
   height: 100px; }
+  .countryHeight .wpb_wrapper {
+    height: 100%;
+    padding-top: 5%; }
 
 .bs-posts-list {
   float: left;
