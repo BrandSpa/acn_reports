@@ -44,8 +44,9 @@
                 <?php dynamic_sidebar( 'post_widget_area' ); ?>
 			<?php endif; ?>
         </aside>
-    
+        
     </section>
+    </div>
 
     <?php require('templates/post_donate.php') ?>
 	<div style="background:#f3f3f3">
@@ -58,7 +59,6 @@
     <?php endwhile; else : ?>
         <h2> <?php echo gett('404') ?> </h2>
     <?php endif; ?>
-    </div>
 </div>
 
 <!-- End Page  -->
