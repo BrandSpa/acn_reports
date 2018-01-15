@@ -64,12 +64,12 @@
 			position: relative;
 
 			input{
-				[type=text]{
+				&[type=text]{
 					width: 100%;
 					padding-right: 15px; 
 				}
 				
-				[type=submit]{
+				&[type=submit]{
 					width: 15px;
 				}
 			}
