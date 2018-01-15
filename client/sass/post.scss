@@ -38,12 +38,18 @@
 		position: relative;
 		top: -150px;
 		background: #fff;
-		
+
 		header{
 			position: relative;
 			width: 125%;
 			background: #fff;
 			height: 150px;
+			padding: 40px 55px 0 55px;
+		}
+
+		.content{
+			position: relative;
+    		padding-top: 10%;
 		}
 	}
 	@media #{$s} {

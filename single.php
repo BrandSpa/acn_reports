@@ -33,9 +33,10 @@
                 <?php require('templates/post_header.php') ?>
                 <?php endif; ?>
             </header>
-
-            <?php the_content() ?>
-
+            <div class="content">
+                <?php the_content() ?>
+            </div>
+        
         </article>
 
         <!-- Widgets Area -->

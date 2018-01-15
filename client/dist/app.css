@@ -3323,7 +3323,11 @@ html {
       position: relative;
       width: 125%;
       background: #fff;
-      height: 150px; }
+      height: 150px;
+      padding: 40px 55px 0 55px; }
+    .bs-post .article .content {
+      position: relative;
+      padding-top: 10%; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }
