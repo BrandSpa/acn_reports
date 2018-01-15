@@ -3379,8 +3379,7 @@ html {
           color: #3C515F;
           font-weight: 300; }
         .bs-post .widget-area ul > li ul {
-          display: none;
-          padding-left: 3%; }
+          display: none; }
         .bs-post .widget-area ul > li:before {
           font-family: "Ionicons";
           content: "\f3d1";
