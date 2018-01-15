@@ -3338,15 +3338,10 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .bs-post .searchform .search-assist-container input[type=text] {
+    .bs-post .searchform .search-assist-container input {
       width: 70%;
       background: #fff;
       border-right: 0px; }
-    .bs-post .searchform .search-assist-container input[type=submit] {
-      width: 30%;
-      border-radius: 0;
-      text-align: center;
-      padding: 0; }
     .bs-post .searchform .search-assist-container button {
       width: 30%;
       border-radius: 0;
