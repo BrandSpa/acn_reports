@@ -1,9 +1,9 @@
 <?php get_header() ?>
 <!-- Init Page -->
-<div id="acn_int" class="bs-post container" >
+<div id="acn_int" class="bs-post" >
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+    <div class="container">
     <!-- Header Banner Area -->
     <section>
         <?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
@@ -59,7 +59,7 @@
     <?php endwhile; else : ?>
         <h2> <?php echo gett('404') ?> </h2>
     <?php endif; ?>
-
+    </div>
 </div>
 
 <!-- End Page  -->
