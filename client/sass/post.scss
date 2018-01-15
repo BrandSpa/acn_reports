@@ -120,7 +120,7 @@
 					display: none;
 				}
 
-				&:before{
+				&a:before{
 					font-family:"Ionicons";
 					content: "\f3d1";
 					left: 5%;
@@ -142,8 +142,7 @@
 				}
 
 				&:hover{
-					&:before{
-						top: 5%;
+					&a:before{
 						content: "\f3d0";
 					}
 					&:after{
