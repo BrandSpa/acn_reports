@@ -34,7 +34,18 @@
 			}
 		}
 	}
-
+	.article{
+		position: relative;
+		top: -150px;
+		background: #fff;
+		
+		header{
+			position: relative;
+			width: 125%;
+			background: #fff;
+			height: 150px;
+		}
+	}
 	@media #{$s} {
 		padding: 0 20px;
 	}

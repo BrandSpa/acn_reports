@@ -3315,6 +3315,15 @@ html {
       display: block !important; }
       .bs-post .bs-post__share ul li a {
         margin: 0 auto; }
+  .bs-post .article {
+    position: relative;
+    top: -150px;
+    background: #fff; }
+    .bs-post .article header {
+      position: relative;
+      width: 125%;
+      background: #fff;
+      height: 150px; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }
