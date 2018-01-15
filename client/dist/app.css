@@ -3389,6 +3389,9 @@ html {
             display: block;
             position: absolute;
             top: 15px; }
+          .bs-post .widget-area ul > li a.rpwe-img {
+            padding: 0;
+            width: auto; }
         .bs-post .widget-area ul > li ul {
           display: none;
           border-top: 1px solid #ccc; }
