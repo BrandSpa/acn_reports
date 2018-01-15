@@ -3297,9 +3297,12 @@ html {
   width: 100%;
   display: block;
   position: relative; }
-  @media (max-width: 767px) {
-    .bs-post p {
-      font-size: 1.5em; } }
+  .bs-post p {
+    color: #414141;
+    font-size: 1.333em; }
+    @media (max-width: 767px) {
+      .bs-post p {
+        font-size: 1.5em; } }
   .bs-post .single-content {
     clear: both;
     position: relative; }
@@ -3328,6 +3331,8 @@ html {
     .bs-post .article .content {
       position: relative;
       padding-top: 10%; }
+      .bs-post .article .content strong {
+        color: #222222; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }

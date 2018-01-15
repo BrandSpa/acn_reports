@@ -6,6 +6,8 @@
 	position: relative;
 
 	p {
+		color: #414141;
+    	font-size: 1.333em;
 		@media #{$s} {
 			font-size: 1.5em;
 		}
@@ -49,7 +51,11 @@
 
 		.content{
 			position: relative;
-    		padding-top: 10%;
+			padding-top: 10%;
+			
+			strong{
+				color: #222222;
+			}
 		}
 	}
 	@media #{$s} {
