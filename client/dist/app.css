@@ -3358,7 +3358,8 @@ html {
   .bs-post .widget-area.sidebar-menu {
     height: 15.3em; }
   .bs-post .sticky {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
     top: 3.8em; }
   @media (max-width: 767px) {
     .bs-post {

@@ -92,7 +92,7 @@
 		}
 	}
 	.sticky{
-		position: relative;
+		position: sticky;
 		top: 3.8em;
 	}
 	@media #{$s} {
