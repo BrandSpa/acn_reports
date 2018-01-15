@@ -3400,7 +3400,7 @@ html {
           height: 1px;
           background: #ccc;
           left: 0; }
-        .bs-post .widget-area ul > li:hovera:before {
+        .bs-post .widget-area ul > li:hover > a:before {
           content: "\f3d0"; }
         .bs-post .widget-area ul > li:hover:after {
           background: #f1364e; }

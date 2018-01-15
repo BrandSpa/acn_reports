@@ -144,7 +144,7 @@
 				}
 
 				&:hover{
-					&a:before{
+					&>a:before{
 						content: "\f3d0";
 					}
 					&:after{
