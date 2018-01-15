@@ -3377,6 +3377,7 @@ html {
           display: none;
           padding-left: 3%; }
         .bs-post .widget-area ul > li:before {
+          font-family: "Ionicons";
           content: "\f3d4";
           left: 5px;
           display: block;
