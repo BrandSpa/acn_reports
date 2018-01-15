@@ -125,5 +125,5 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 add_filter('bcn_breadcrumb_url', 'my_add_post_type_arg_filt', 10, 3);
 function my_add_post_type_arg_filt($add_query_arg, $type, $taxonomy)
 {
-    remove_query_arg('post_type', $url);
+    remove_query_arg('categories', $url);
 }
