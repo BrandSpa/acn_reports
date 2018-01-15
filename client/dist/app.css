@@ -3370,7 +3370,8 @@ html {
           color: #3C515F;
           font-weight: 300; }
         .bs-post .widget-area ul li ul {
-          display: none; }
+          display: none;
+          padding-left: 3%; }
         .bs-post .widget-area ul li:hover > ul {
           display: block; }
     .bs-post .widget-area.sidebar-tag .tagcloud a {
