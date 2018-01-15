@@ -3369,6 +3369,8 @@ html {
           font-size: 1.2em;
           color: #3C515F;
           font-weight: 300; }
+        .bs-post .widget-area ul li ul {
+          display: none; }
     .bs-post .widget-area.sidebar-tag .tagcloud a {
       font-size: 1.2em !important;
       padding: 0.5em 0.8em;
