@@ -3367,7 +3367,7 @@ html {
     position: -webkit-sticky;
     position: sticky;
     top: 3.8em; }
-  .bs-post .icon {
+  .bs-post .social-sidebar .icon {
     color: black;
     width: 40px;
     height: 40px;
@@ -3379,9 +3379,9 @@ html {
     font-size: 20px;
     -webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
-  .bs-post .icon:hover {
-    color: #f1364e;
-    border: 1px solid #f1364e; }
+    .bs-post .social-sidebar .icon:hover {
+      color: #f1364e;
+      border: 1px solid #f1364e; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }
