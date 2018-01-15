@@ -3536,6 +3536,9 @@ html {
 .download-pdf button {
   font-size: 1em; }
 
+.countryHeight {
+  height: 100px; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
