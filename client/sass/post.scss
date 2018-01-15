@@ -62,15 +62,18 @@
 
 		div{
 			position: relative;
-
+			display: flex;
 			input{
 				&[type=text]{
-					width: 100%;
-					padding-right: 15px; 
+					width: 80%;
+					background: #fff;
 				}
 				
 				&[type=submit]{
-					width: 15px;
+					width: 20%;
+					border-radius: 0;
+					text-align: center;
+					padding: 0;
 				}
 			}
 			
@@ -79,7 +82,7 @@
 	.widget-area{
 		background: #f7f7f7;
 		margin-bottom: 1em;
-
+		padding: 5%;
 		h2{
 			text-transform: uppercase;
 			text-align: left;
