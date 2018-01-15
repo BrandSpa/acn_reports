@@ -24,7 +24,7 @@
         </aside>
 
         <!-- Article Area -->
-        <article class="col-sm-6 col-xs-12 post-text">
+        <article class="col-sm-8 col-xs-12 post-text">
 
             <!-- Post Header -->
             <header>
@@ -40,7 +40,7 @@
         </article>
 
         <!-- Widgets Area -->
-        <aside class="col-sm-4 col-xs-12 banner-vertical">
+        <aside class="col-sm-2 col-xs-12 banner-vertical">
             <?php if ( is_active_sidebar( 'post_widget_area' ) ) : ?>
                 <?php dynamic_sidebar( 'post_widget_area' ); ?>
 			<?php endif; ?>
