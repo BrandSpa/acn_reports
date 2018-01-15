@@ -3363,8 +3363,11 @@ html {
       width: 100%;
       list-style: none; }
       .bs-post .widget-area ul li {
-        padding: 0.12em 0;
-        text-align: left; }
+        text-align: left;
+        background: #FFF;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding: 5%; }
         .bs-post .widget-area ul li a {
           font-size: 1.2em;
           color: #3C515F;
@@ -3372,6 +3375,17 @@ html {
         .bs-post .widget-area ul li ul {
           display: none;
           padding-left: 3%; }
+        .bs-post .widget-area ul li:after {
+          content: "";
+          width: 100%;
+          display: block;
+          position: absolute;
+          bottom: 0;
+          height: 1px;
+          background: #ccc;
+          left: 0; }
+        .bs-post .widget-area ul li:hover:after {
+          color: #f1364e; }
         .bs-post .widget-area ul li:hover > ul {
           display: block; }
     .bs-post .widget-area.sidebar-tag .tagcloud a {

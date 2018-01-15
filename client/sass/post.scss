@@ -97,8 +97,11 @@
 			width: 100%;
 			list-style: none;
 			li{
-				padding: 0.12em 0;
 				text-align: left;
+				background: #FFF;
+				width: 100%;
+				border-bottom: 1px solid #ccc;
+				padding: 5%;
 				a{
 					font-size: 1.2em;
 					color: #3C515F;
@@ -110,8 +113,21 @@
 					padding-left: 3%;
 				}
 
-				&:hover{
+				&:after{
+					content: "";
+					width: 100%;
+					display: block;
+					position: absolute;
+					bottom: 0;
+					height: 1px;
+					background: #ccc;
+					left: 0;
+				}
 
+				&:hover{
+					&:after{
+						color: rgb(241, 54, 78);
+					}
 					&>ul{
 						display: block;
 					}
