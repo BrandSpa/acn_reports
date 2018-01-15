@@ -3406,8 +3406,6 @@ html {
       background: #d1d1d1;
       line-height: 2.45em !important;
       color: #fcfcfc; }
-    .bs-post .widget-area.sidebar-menu {
-      height: 15.3em; }
   .bs-post .sticky {
     position: -webkit-sticky;
     position: sticky;
