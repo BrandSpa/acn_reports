@@ -3529,6 +3529,13 @@ html {
       color: #fff;
       margin: 30px auto; }
 
+.download-pdf input {
+  border-radius: .5em;
+  background: #FFF; }
+
+.download-pdf button {
+  font-size: 1em; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
