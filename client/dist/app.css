@@ -3375,6 +3375,7 @@ html {
         cursor: pointer; }
         .bs-post .widget-area ul > li h3 a {
           padding: 0;
+          padding-left: 0;
           width: auto; }
         .bs-post .widget-area ul > li a {
           font-size: 1.2em;
