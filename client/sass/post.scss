@@ -1,3 +1,5 @@
+@import '_grid';
+
 .bs-post {
 	width: 100%;
 	display: block;
@@ -9,6 +11,12 @@
 		}
 	}
 	
+	.single-content{
+		clear: both;
+		position: relative;
+		overflow: auto;
+	}
+
 	@media #{$s} {
 		padding: 0 20px;
 	}

@@ -15,7 +15,7 @@
 
     <section class="single-content">
         <!-- Social Area -->
-        <aside class="social-sidebar col-1-l">
+        <aside class="social-sidebar col-sm-2">
             <div class="sticky">
                 <div
                     class="bs-post-share"
@@ -26,7 +26,7 @@
         </aside>
 
         <!-- Article Area -->
-        <article class="col-6-l col-12-s post-text">
+        <article class="col-sm-6 col-xs-12 post-text">
 
             <!-- Post Header -->
             <header>
@@ -38,7 +38,7 @@
         </article>
 
         <!-- Widgets Area -->
-        <aside class="col-4-l banner-vertical">
+        <aside class="col-sm-4 col-xs-12 banner-vertical">
             <?php if ( is_active_sidebar( 'post_widget_area' ) ) : ?>
                 <?php dynamic_sidebar( 'post_widget_area' ); ?>
 			<?php endif; ?>
@@ -106,8 +106,8 @@
 }
 
 .sticky{
-position: relative;
-top: 2em;
+    position: relative;
+    top: 2em;
 }
 
 blockquote p {
