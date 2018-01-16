@@ -116,7 +116,7 @@ class DownloadPdf extends React.Component {
     return (
       <form onSubmit={this.handlepdf} className="form-inline download-pdf">
         <div className="row">
-        <div className=" col-xs-12 col-sm-9">
+        <div className="row col-sm-12 col-md-9">
           <div className="input-container col-xs-12 col-sm-6">
             <input
               type="text"
@@ -130,7 +130,7 @@ class DownloadPdf extends React.Component {
             </div>
           </div>
 
-          <div className="input-container col-xs-12 col-sm-6">
+          <div className="input-container col-sm-12 col-md-6">
             <select
               onChange={e => this.handleChange(e, 'country')}
               value={this.state.country || this.props.country}
@@ -147,7 +147,7 @@ class DownloadPdf extends React.Component {
               </div>
           </div>
           </div>
-          <div className="input-container col-xs-12 col-sm-3">
+          <div className="input-container col-sm-12 col-md-3">
           <button class="btn_downloadpdf" onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
           </div>
         </div>
