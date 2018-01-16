@@ -3273,6 +3273,11 @@ html {
     .bs-post .article .content {
       position: relative;
       padding-top: 10%; }
+      .bs-post .article .content .quote {
+        padding: 0; }
+        @media screen and (min-width: 992px) {
+          .bs-post .article .content .quote {
+            padding: 0 4em; } }
       .bs-post .article .content strong {
         color: #222222; }
   .bs-post .searchform .search-assist-container {

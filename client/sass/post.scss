@@ -85,6 +85,14 @@ $xl: 1200px;
 			position: relative;
 			padding-top: 10%;
 			
+			.quote{
+				padding: 0;
+
+				@media screen and (min-width: $lg){
+					padding: 0 4em;
+				}
+			}
+
 			strong{
 				color: #222222;
 			}
