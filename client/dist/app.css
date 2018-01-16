@@ -3536,6 +3536,9 @@ body {
   .hidden-xs {
     display: none !important; } }
 
+.post-image img {
+  max-width: 100%; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
