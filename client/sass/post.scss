@@ -411,12 +411,9 @@ figcaption.vc_figure-caption{
 	}
 }
 .bs-about{
-	
 	@media screen and (max-width: $sm) {
-		&:first-child, &:last-child{
+		&>div{
 			width: 100%;
 		}
 	}
-
-	
 }
