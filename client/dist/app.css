@@ -3528,11 +3528,11 @@ body {
 .wpb_wrapper h2 {
   padding: 10px 0px 0px 0px; }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .visible-xs {
     display: block; } }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .hidden-xs {
     display: none !important; } }
 
