@@ -12,7 +12,7 @@
     <div class="container">
     <section class="single-content row">
         <!-- Social Area -->
-        <aside class="social-sidebar col-md-1 col-xs-12">
+        <aside class="social-sidebar col-md-1 col-xs-12 hidden-xs">
             <div class="sticky">
                 <div
                     class="bs-post-share"
@@ -33,6 +33,12 @@
                 <?php require('templates/post_header.php') ?>
                 <?php endif; ?>
             </header>
+            <div class="sticky visible-xs">
+                <div
+                    class="bs-post-share"
+                    data-props='<?php echo json_encode($props) ?>'
+                >
+                </div>
             <div class="visible-xs post-image ">
                 <img src="<?php echo get_the_post_thumbnail_url($post->ID, 'full') ?>" alt="<?php the_title(); ?>">
             </div>
