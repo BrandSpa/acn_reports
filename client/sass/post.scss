@@ -445,6 +445,6 @@ body{
 }
 .hidden-xs{
 	@media screen and(min-width: $sm){
-		display: none;
+		display: none !important;
 	}
 }

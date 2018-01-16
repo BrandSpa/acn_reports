@@ -3534,7 +3534,7 @@ body {
 
 @media screen and (min-width: 576px) {
   .hidden-xs {
-    display: none; } }
+    display: none !important; } }
 
 .bs-posts-list {
   float: left;
