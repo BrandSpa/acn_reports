@@ -451,6 +451,18 @@ body{
 	}
 }
 
+.visible-sm{
+	display: none;
+	@media screen and(max-width: $md){
+		display: block;
+	}
+}
+.hidden-sm{
+	@media screen and(max-width: $md){
+		display: none !important;
+	}
+}
+
 .post-image img {
     max-width: 100%;
 }

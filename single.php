@@ -4,7 +4,7 @@
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <!-- Header Banner Area -->
-    <section class="hidden-xs">
+    <section class="hidden-sm">
         <?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
         <?php require('templates/post_banner.php') ?>
         <?php endif; ?>
@@ -12,7 +12,7 @@
     <div class="container">
     <section class="single-content row">
         <!-- Social Area -->
-        <aside class="social-sidebar col-md-1 col-xs-12 hidden-xs">
+        <aside class="social-sidebar col-md-1 col-xs-12 hidden-sm">
             <div class="sticky">
                 <div
                     class="bs-post-share"
@@ -33,14 +33,14 @@
                 <?php require('templates/post_header.php') ?>
                 <?php endif; ?>
             </header>
-            <div class="sticky visible-xs">
+            <div class="sticky visible-sm">
                 <div
                     class="bs-post-share"
                     data-props='<?php echo json_encode($props) ?>'
                 >
                 </div>
             </div>
-            <div class="visible-xs post-image ">
+            <div class="visible-sm post-image ">
                 <img src="<?php echo get_the_post_thumbnail_url($post->ID, 'full') ?>" alt="<?php the_title(); ?>">
             </div>
             <div class="content">

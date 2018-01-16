@@ -3540,6 +3540,16 @@ body {
   .hidden-xs {
     display: none !important; } }
 
+.visible-sm {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .visible-sm {
+      display: block; } }
+
+@media screen and (max-width: 768px) {
+  .hidden-sm {
+    display: none !important; } }
+
 .post-image img {
   max-width: 100%; }
 
