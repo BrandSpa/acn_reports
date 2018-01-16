@@ -1366,7 +1366,8 @@ button, .btn {
   margin-bottom: 0 !important; }
 
 .vc_row {
-  margin-right: 0; }
+  margin-right: 0;
+  margin-left: 0; }
 
 .modal {
   background: RGBA(43, 55, 64, 0.9);
