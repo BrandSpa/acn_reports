@@ -3564,6 +3564,9 @@ body {
     padding-left: 25px;
     padding-right: 25px; } }
 
+area {
+  outline: 0; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
