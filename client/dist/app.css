@@ -3229,7 +3229,7 @@ html {
     background: #fff;
     top: -150px; }
     .bs-post .single-content aside {
-      top: 150px; }
+      padding-top: 150px; }
   .bs-post h2 {
     font-size: 1.5em; }
   .bs-post .bs-post__share ul {
