@@ -22,6 +22,12 @@ $xl: 1200px;
 	.single-content{
 		clear: both;
 		position: relative;
+		background: #fff;
+		top: -150px;
+
+		aside{
+			top:150px;
+		}
 	}
 
 	
@@ -57,11 +63,7 @@ $xl: 1200px;
 	}
 	.article{
 		position: relative;
-		
 		background: #fff;
-		@media screen (min-width: $sm){
-			top: -150px;
-		}
 		header{
 			position: relative;
 			width: 100%;

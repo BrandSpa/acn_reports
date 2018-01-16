@@ -3225,7 +3225,11 @@ html {
         font-size: 1.5em; } }
   .bs-post .single-content {
     clear: both;
-    position: relative; }
+    position: relative;
+    background: #fff;
+    top: -150px; }
+    .bs-post .single-content aside {
+      top: 150px; }
   .bs-post h2 {
     font-size: 1.5em; }
   .bs-post .bs-post__share ul {
@@ -3253,7 +3257,6 @@ html {
           display: block; } }
   .bs-post .article {
     position: relative;
-    top: -150px;
     background: #fff; }
     .bs-post .article header {
       position: relative;
