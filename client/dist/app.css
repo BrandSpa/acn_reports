@@ -3519,6 +3519,12 @@ body {
   -ms-user-select: auto !important;
   user-select: auto !important; }
 
+.postSeven {
+  padding-left: 33px; }
+
+.displPost {
+  padding-right: 25px; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
