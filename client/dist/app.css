@@ -3341,10 +3341,13 @@ html {
     background: #fff; }
     .bs-post .article header {
       position: relative;
-      width: 125%;
+      width: 100%;
       background: #fff;
       height: 150px;
       padding: 40px 55px 0 55px; }
+      @media screen and (min-width: 992px) {
+        .bs-post .article header {
+          width: 125%; } }
     .bs-post .article .content {
       position: relative;
       padding-top: 10%; }
