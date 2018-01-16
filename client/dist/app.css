@@ -3508,7 +3508,7 @@ figcaption.vc_figure-caption {
 
 @media screen and (max-width: 576px) {
   .bs-about {
-    display: block; } }
+    display: block !important; } }
 
 .bs-posts-list {
   float: left;
