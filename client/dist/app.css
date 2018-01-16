@@ -3227,7 +3227,7 @@ html {
     clear: both;
     position: relative;
     background: #fff; }
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 768px) {
       .bs-post .single-content {
         top: -150px; }
         .bs-post .single-content aside {
