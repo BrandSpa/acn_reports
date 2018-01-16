@@ -57,9 +57,11 @@ $xl: 1200px;
 	}
 	.article{
 		position: relative;
-		top: -150px;
+		
 		background: #fff;
-
+		@media screen (min-width: $sm){
+			top: -150px;
+		}
 		header{
 			position: relative;
 			width: 100%;
@@ -214,9 +216,9 @@ $xl: 1200px;
 	}
 	.sticky{
 
-		top: 3.8em;
 		@media screen and (min-width:$md){
 			position: sticky;
+			top: 3.8em;
 		}
 	}
 	
