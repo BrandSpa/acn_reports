@@ -3259,11 +3259,11 @@ html {
       position: relative;
       width: 100%;
       background: #fff;
-      height: 150px;
-      padding: 40px 55px 0 55px; }
+      height: 150px; }
       @media screen and (min-width: 992px) {
         .bs-post .article header {
-          width: 125%; } }
+          width: 125%;
+          padding: 40px 55px 0 55px; } }
     .bs-post .article .content {
       position: relative;
       padding-top: 10%; }

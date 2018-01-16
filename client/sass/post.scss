@@ -70,10 +70,10 @@ $xl: 1200px;
 			width: 100%;
 			background: #fff;
 			height: 150px;
-			padding: 40px 55px 0 55px;
-
+			
 			@media screen and (min-width: $lg){
 				width: 125%;
+				padding: 40px 55px 0 55px;
 			}
 		}
 
