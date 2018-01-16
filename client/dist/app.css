@@ -3501,7 +3501,7 @@ figcaption.vc_figure-caption {
   font-style: normal !important; }
 
 #columnfive > div {
-  width: 100%; }
+  width: 100% !important; }
   @media screen and (min-width: 576px) {
     #columnfive > div {
       width: 20%; } }
