@@ -146,7 +146,7 @@ class DownloadPdf extends React.Component {
                 {texts.terms_text_valid}
               </div>
           </div>
-          <div className=" col-xs-12 col-sm-3">
+          <div className="input-container col-xs-12 col-sm-3">
             <button onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
           </div>
         </div>
