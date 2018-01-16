@@ -3532,7 +3532,7 @@ body {
 
 .visible-xs {
   display: none; }
-  @media screen and (min-width: 576px) {
+  @media screen and (max-width: 576px) {
     .visible-xs {
       display: block; } }
 
