@@ -115,9 +115,9 @@ class DownloadPdf extends React.Component {
 
     return (
       <form onSubmit={this.handlepdf} className="form-inline download-pdf">
-        <div className="row">
+        <div className="container-fluid">
         <div className="row col-sm-12 col-md-9">
-          <div className="input-container col-xs-12 col-sm-6">
+          <div className="input-container col-sm-12 col-md-6">
             <input
               type="text"
               placeholder={texts.email}
