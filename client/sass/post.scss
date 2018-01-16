@@ -217,7 +217,9 @@ $xl: 1200px;
 		}
 	}
 	.sticky{
-
+		.title{
+			margin: 0;
+		}
 		@media screen and (min-width:$md){
 			position: sticky;
 			top: 3.8em;

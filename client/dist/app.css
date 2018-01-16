@@ -3366,6 +3366,8 @@ html {
       background: #d1d1d1;
       line-height: 2.45em !important;
       color: #fcfcfc; }
+  .bs-post .sticky .title {
+    margin: 0; }
   @media screen and (min-width: 768px) {
     .bs-post .sticky {
       position: -webkit-sticky;
