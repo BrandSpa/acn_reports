@@ -3316,8 +3316,22 @@ html {
     width: 100%; }
     .bs-post .bs-post__share ul li {
       display: block !important; }
-      .bs-post .bs-post__share ul li a {
-        margin: 0 auto; }
+      .bs-post .bs-post__share ul li a.icon {
+        margin: 0 auto;
+        color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        text-align: center;
+        display: block;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 20px;
+        -webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
+        .bs-post .bs-post__share ul li a.icon:hover {
+          color: #f1364e;
+          border: 1px solid #f1364e; }
   .bs-post .article {
     position: relative;
     top: -150px;
@@ -3424,21 +3438,6 @@ html {
     position: -webkit-sticky;
     position: sticky;
     top: 3.8em; }
-  .bs-post .social-sidebar .icon {
-    color: black;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    text-align: center;
-    display: block;
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 20px;
-    -webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
-    .bs-post .social-sidebar .icon:hover {
-      color: #f1364e;
-      border: 1px solid #f1364e; }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }

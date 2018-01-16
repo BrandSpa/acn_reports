@@ -31,8 +31,23 @@
 		width: 100%;
 		li{
 			display: block !important;
-			a{
+			a.icon{
 				margin: 0 auto;
+				color: rgb(0, 0, 0);
+				width: 40px;
+				height: 40px;
+				border-radius: 40px;
+				text-align: center;
+				display: block;
+				border: 1px solid rgb(0, 0, 0);
+				padding: 5px;
+				font-size: 20px;
+				transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+				&:hover{
+					color: rgb(241, 54, 78);
+					border: 1px solid rgb(241, 54, 78);
+				}
 			}
 		}
 	}
@@ -184,25 +199,7 @@
 		position: sticky;
 		top: 3.8em;
 	}
-	.social-sidebar{
-		.icon {
-			color: rgb(0, 0, 0);
-			width: 40px;
-			height: 40px;
-			border-radius: 40px;
-			text-align: center;
-			display: block;
-			border: 1px solid rgb(0, 0, 0);
-			padding: 5px;
-			font-size: 20px;
-			transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-
-			&:hover{
-				color: rgb(241, 54, 78);
-				border: 1px solid rgb(241, 54, 78);
-			}
-		}
-	}
+	
 	@media #{$s} {
 		padding: 0 20px;
 	}
