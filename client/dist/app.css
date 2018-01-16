@@ -3555,9 +3555,10 @@ button.btn_downloadpdf {
 .fields {
   margin: 0 auto; }
 
-.container-download-btn .col-xs-12 {
-  padding-left: 15px;
-  padding-right: 15px; }
+@media (max-width: 767px) {
+  .container-download-btn .col-xs-12 {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 .bs-posts-list {
   float: left;
