@@ -3520,10 +3520,10 @@ body {
   user-select: auto !important; }
 
 .postSeven {
-  padding-left: 33px; }
+  padding-left: 33px !important; }
 
 .displPost {
-  padding-right: 25px; }
+  padding-right: 25px !important; }
 
 .bs-posts-list {
   float: left;
