@@ -473,3 +473,11 @@ body{
 	position: relative;
     top: -3px;
 }
+.fondCity{
+	.vc_column-inner{
+		@media screen and(max-width: $md){
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+}

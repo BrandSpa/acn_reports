@@ -3559,6 +3559,11 @@ body {
   position: relative;
   top: -3px; }
 
+@media screen and (max-width: 768px) {
+  .fondCity .vc_column-inner {
+    padding-left: 25px;
+    padding-right: 25px; } }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
