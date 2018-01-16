@@ -84,14 +84,6 @@ $xl: 1200px;
 		.content{
 			position: relative;
 			padding-top: 10%;
-			
-			.quote{
-				padding: 0;
-
-				@media screen and (min-width: $lg){
-					padding: 0 4em;
-				}
-			}
 
 			strong{
 				color: #222222;
@@ -395,5 +387,13 @@ button.btn_downloadpdf {
 	.container-download-btn .col-xs-12{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+}
+
+.quote{
+	padding: 0;
+
+	@media screen and (min-width: $lg){
+		padding: 0 4em;
 	}
 }
