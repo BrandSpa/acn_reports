@@ -3222,10 +3222,6 @@ html {
   .bs-post .single-content {
     clear: both;
     position: relative; }
-  .bs-post .single_post-title {
-    position: relative; }
-    .bs-post .single_post-title h1 {
-      font-size: 2.3em; }
   .bs-post h2 {
     font-size: 1.5em; }
   .bs-post .bs-post__share ul {
@@ -3259,7 +3255,13 @@ html {
       position: relative;
       width: 100%;
       background: #fff;
-      height: 150px; }
+      height: 150px;
+      padding-top: 15px; }
+      .bs-post .article header .single_post-title {
+        position: relative; }
+        .bs-post .article header .single_post-title h1 {
+          font-size: 2.3em;
+          line-height: 1.2; }
       @media screen and (min-width: 992px) {
         .bs-post .article header {
           width: 125%;
