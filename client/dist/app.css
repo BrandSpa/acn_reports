@@ -3506,6 +3506,10 @@ figcaption.vc_figure-caption {
     #columnfive > div {
       width: 20% !important; } }
 
+@media screen and (max-width: 576px) {
+  .bs-about:first-child, .bs-about:last-child {
+    width: 100%; } }
+
 .bs-posts-list {
   float: left;
   width: 100%; }

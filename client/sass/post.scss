@@ -410,3 +410,13 @@ figcaption.vc_figure-caption{
 		width: 20% !important;
 	}
 }
+.bs-about{
+	
+	@media screen and (max-width: $sm) {
+		&:first-child, &:last-child{
+			width: 100%;
+		}
+	}
+
+	
+}
