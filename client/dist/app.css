@@ -3271,8 +3271,7 @@ html {
           line-height: 1.2; }
       @media screen and (min-width: 992px) {
         .bs-post .article header {
-          width: 125%;
-          padding: 40px 55px 0 55px; } }
+          padding: 40px 54px 0 20px; } }
     .bs-post .article .content {
       position: relative;
       padding-top: 10%; }
