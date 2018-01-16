@@ -3226,10 +3226,12 @@ html {
   .bs-post .single-content {
     clear: both;
     position: relative;
-    background: #fff;
-    top: -150px; }
-    .bs-post .single-content aside {
-      padding-top: 150px; }
+    background: #fff; }
+    @media screen and (min-width: 576px) {
+      .bs-post .single-content {
+        top: -150px; }
+        .bs-post .single-content aside {
+          padding-top: 150px; } }
   .bs-post h2 {
     font-size: 1.5em; }
   .bs-post .bs-post__share ul {

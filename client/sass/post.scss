@@ -23,10 +23,11 @@ $xl: 1200px;
 		clear: both;
 		position: relative;
 		background: #fff;
-		top: -150px;
-
-		aside{
-			padding-top: 150px;
+		@media screen and (min-width: $sm ){
+			top: -150px;
+			aside{
+				padding-top: 150px;
+			}
 		}
 	}
 
