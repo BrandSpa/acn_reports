@@ -407,6 +407,6 @@ figcaption.vc_figure-caption{
 #columnfive > div{
 	width: 100% !important;
 	@media screen and (min-width: $sm){
-		width: 20%;
+		width: 20% !important;
 	}
 }

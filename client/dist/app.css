@@ -3504,7 +3504,7 @@ figcaption.vc_figure-caption {
   width: 100% !important; }
   @media screen and (min-width: 576px) {
     #columnfive > div {
-      width: 20%; } }
+      width: 20% !important; } }
 
 .bs-posts-list {
   float: left;
