@@ -10,8 +10,10 @@
 <?php get_header('fullpage') ?>
 
   <?php if ( have_posts() ) : ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php the_content() ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+      <div class="content">
+      <?php the_content() ?>
+      </div>
 		<?php  endwhile; ?>
   <?php else : ?>
     <h1> <?php echo gett('404') ?> </h1>
