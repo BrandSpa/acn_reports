@@ -3555,6 +3555,10 @@ body {
 .post-image img {
   max-width: 100%; }
 
+.actividad {
+  position: relative;
+  top: -3px; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
