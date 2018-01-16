@@ -1365,6 +1365,9 @@ button, .btn {
 .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
   margin-bottom: 0 !important; }
 
+.vs-row {
+  margin-right: 0; }
+
 .modal {
   background: RGBA(43, 55, 64, 0.9);
   width: 100%;
