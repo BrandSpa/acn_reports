@@ -3549,7 +3549,7 @@ html {
     height: 100%;
     padding-top: 5%; }
 
-.btn_downloadpdf {
+button.btn_downloadpdf {
   margin: 0 auto; }
 
 .bs-posts-list {
