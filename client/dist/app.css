@@ -3510,6 +3510,12 @@ figcaption.vc_figure-caption {
   .bs-about {
     display: block !important; } }
 
+body {
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  user-select: auto !important; }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
