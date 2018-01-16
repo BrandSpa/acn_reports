@@ -437,3 +437,14 @@ body{
 		padding: 10px 0px 0px 0px;
 	}
 }
+
+.visible-xs{
+	@media screen and(max-width: $sm){
+		display: block;
+	}
+}
+.hidden-xs{
+	@media screen and(min-width: $sm){
+		display: none;
+	}
+}

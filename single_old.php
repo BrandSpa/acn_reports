@@ -4,11 +4,13 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
-	<?php require('templates/post_header_image.php') ?>
-<?php else: ?>
-	<?php require('templates/post_header.php') ?>
-<?php endif; ?>
+<div class="hidden-xs">
+	<?php if(!empty(get_the_post_thumbnail_url($post->ID, 'full'))): ?>
+		<?php require('templates/post_header_image.php') ?>
+	<?php else: ?>
+		<?php require('templates/post_header.php') ?>
+	<?php endif; ?>
+</div>
 
 		<div id="post-content" class="l-wrap" style="margin-top: 40px">
 		<div class="col-1-l sticky">
