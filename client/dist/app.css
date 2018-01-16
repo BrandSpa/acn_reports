@@ -3497,7 +3497,8 @@ figcaption.vc_figure-caption {
   font-family: SourceSansPro-It !important;
   font-size: 16px !important;
   color: #777777 !important;
-  line-height: 30px !important; }
+  line-height: 30px !important;
+  font-style: normal !important; }
 
 .bs-posts-list {
   float: left;
