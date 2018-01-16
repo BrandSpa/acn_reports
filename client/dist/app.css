@@ -3315,7 +3315,7 @@ html {
   .bs-post .bs-post__share ul {
     width: 100%; }
     .bs-post .bs-post__share ul li {
-      display: block !important; }
+      display: inline-block; }
       .bs-post .bs-post__share ul li a.icon {
         margin: 0 auto;
         color: black;
@@ -3332,6 +3332,9 @@ html {
         .bs-post .bs-post__share ul li a.icon:hover {
           color: #f1364e;
           border: 1px solid #f1364e; }
+      @media screen and (min-width: 992px) {
+        .bs-post .bs-post__share ul li {
+          display: block; } }
   .bs-post .article {
     position: relative;
     top: -150px;

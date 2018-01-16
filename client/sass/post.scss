@@ -1,5 +1,11 @@
 @import 'bootstrap-grid';
 
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
 .bs-post {
 	width: 100%;
 	display: block;
@@ -30,7 +36,7 @@
 	.bs-post__share ul{
 		width: 100%;
 		li{
-			display: block !important;
+			display: inline-block;
 			a.icon{
 				margin: 0 auto;
 				color: rgb(0, 0, 0);
@@ -48,6 +54,9 @@
 					color: rgb(241, 54, 78);
 					border: 1px solid rgb(241, 54, 78);
 				}
+			}
+			@media screen and (min-width: $lg){
+				display: block;
 			}
 		}
 	}
