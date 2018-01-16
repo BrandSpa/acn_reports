@@ -146,10 +146,11 @@ class DownloadPdf extends React.Component {
                 {texts.terms_text_valid}
               </div>
           </div>
+          <div className=" col-xs-12 col-sm-3">
+            <button onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
+          </div>
         </div>
-        <div className=" col-xs-12 col-sm-3">
-          <button onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
-        </div>
+       
         <style jsx>{` 
           .download-pdf button{ width: 100%;  }
           .download-pdf input[type='checkbox'] {
