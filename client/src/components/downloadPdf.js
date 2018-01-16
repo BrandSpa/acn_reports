@@ -116,7 +116,7 @@ class DownloadPdf extends React.Component {
     return (
       <form onSubmit={this.handlepdf} className="form-inline download-pdf">
         <div className="container-fluid">
-        <div className="row col-sm-12 col-md-9">
+        <div className="row fields col-sm-12 col-md-9">
           <div className="input-container col-sm-12 col-md-6">
             <input
               type="text"
@@ -147,8 +147,10 @@ class DownloadPdf extends React.Component {
               </div>
           </div>
           </div>
-          <div className="input-container col-sm-12 col-md-3">
-          <button class="btn_downloadpdf" onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
+          <div className="row fields col-sm-12 col-md-3">
+              <div className="input-container col-xs-12">
+                <button class="btn_downloadpdf" onClick={this.handlepdf} style={btnStyle}>{btn.text}</button>
+              </div>
           </div>
         </div>
         
