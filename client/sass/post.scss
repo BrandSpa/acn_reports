@@ -404,3 +404,9 @@ figcaption.vc_figure-caption{
 	line-height: 30px !important;
 	font-style: normal !important;
 }
+#columnfive > div{
+	width: 100%;
+	@media screen and (min-width: $sm){
+		width: 20%;
+	}
+}

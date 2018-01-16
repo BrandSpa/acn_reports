@@ -3500,6 +3500,12 @@ figcaption.vc_figure-caption {
   line-height: 30px !important;
   font-style: normal !important; }
 
+#columnfive > div {
+  width: 100%; }
+  @media screen and (min-width: 576px) {
+    #columnfive > div {
+      width: 20%; } }
+
 .bs-posts-list {
   float: left;
   width: 100%; }
