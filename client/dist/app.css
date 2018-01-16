@@ -3363,9 +3363,11 @@ html {
       line-height: 2.45em !important;
       color: #fcfcfc; }
   .bs-post .sticky {
-    position: -webkit-sticky;
-    position: sticky;
     top: 3.8em; }
+    @media screen and (min-width: 768px) {
+      .bs-post .sticky {
+        position: -webkit-sticky;
+        position: sticky; } }
   @media (max-width: 767px) {
     .bs-post {
       padding: 0 20px; } }

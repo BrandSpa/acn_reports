@@ -213,8 +213,11 @@ $xl: 1200px;
 		}
 	}
 	.sticky{
-		position: sticky;
+
 		top: 3.8em;
+		@media screen and (min-width:$md){
+			position: sticky;
+		}
 	}
 	
 	@media #{$s} {
