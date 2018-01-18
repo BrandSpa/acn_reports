@@ -1,5 +1,5 @@
 <div class="nav">
-	  <a href="<?php echo bs_home_url(); ?>" class="logo">
+	  <a href="https://acninternational.org/" class="logo">
       	<img data-src='<?php echo bs_logo_url(); ?>'  alt="ACN logo" class="img-responsive lazyload" width="170"  />
      </a>
 		<a href="#" class="open-menu">
