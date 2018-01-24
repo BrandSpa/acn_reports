@@ -71,11 +71,7 @@ echo do_shortcode('[bs_accordion btn_title="'.gett('ACN International in the wor
 
 			<div class="col-4-l">
 				<h5 style="visibility: hidden;"><?php echo gett('Contact') ?></h5>
-				<h6>C/ Ferrer del Río, 14</h6>
-				<h6>(esq. C/ Ardemans)</h6>
-				<h6>28028 MADRID</h6>
-				<h6><a href="mailto:info@ayudaalaiglesianecesitada.org">info@ayudaalaiglesianecesitada.org</a></h6>
-				<h6><a href="tel:+34917259212">91 725 92 12</a></h6>
+				<?php echo do_shortcode('[bs_contact_info]') ?>
 			</div>
 
 			<div class="col-4-l privacy-terms">
